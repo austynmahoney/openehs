@@ -12,6 +12,10 @@ using NHibernate.Cfg;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Used to manage connection to the database.  Keeps track of the current unit of work that can be accessed and
+    /// used by a class wanting to access the database.
+    /// </summary>
     public static class UnitOfWork
     {
         private static readonly IUnitOfWorkFactory _unitOfWorkFactory = new UnitOfWorkFactory();

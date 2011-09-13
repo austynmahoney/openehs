@@ -2,6 +2,10 @@
 
 namespace OpenEhs.Data.Common
 {
+    /// <summary>
+    /// Generic class that keeps track of paginating a record set
+    /// </summary>
+    /// <typeparam name="T">The type of data to be paginated</typeparam>
     public class PagedList<T> : List<T>, IPagedList
     {
         public int RecordCount { get; set; }

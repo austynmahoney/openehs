@@ -10,6 +10,10 @@ using NHibernate;
 
 namespace OpenEhs.Data
 {
+
+    /// <summary>
+    /// This represents a generic transaction that is used as database transaction
+    /// </summary>
     public class GenericTransaction : IGenericTransaction
     {
         private readonly ITransaction _transaction;

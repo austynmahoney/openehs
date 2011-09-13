@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Medication Repository that handles the management and access of medications
+    /// </summary>
     public class MedicationRepository : IMedicationRepository
     {
         private ISession Session

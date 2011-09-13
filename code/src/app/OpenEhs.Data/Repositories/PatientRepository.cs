@@ -15,6 +15,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Patient Repository that handles the management and access of patients
+    /// </summary>
     public class PatientRepository : IPatientRepository
     {
         private ISession Session

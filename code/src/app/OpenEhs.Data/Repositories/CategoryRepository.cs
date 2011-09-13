@@ -6,6 +6,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Category Repository that handles the management and access of categories
+    /// </summary>
     public class CategoryRepository : ICategoryRepository
     {
         private ISession Session

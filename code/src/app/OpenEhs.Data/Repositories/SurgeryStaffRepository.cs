@@ -8,6 +8,9 @@ using NHibernate;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Surgery Staff Repository that handles the management and access of staff in a surgery
+    /// </summary>
     public class SurgeryStaffRepository : ISurgeryStaffRepository
     {
         private ISession Session

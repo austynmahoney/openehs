@@ -8,6 +8,9 @@ using NHibernate;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Country Repository that handles the management and access of countries
+    /// </summary>
     public class CountryRepository : ICountryRepository
     {
         private ISession Session

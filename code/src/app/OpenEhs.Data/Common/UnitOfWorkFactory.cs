@@ -14,6 +14,10 @@ using NHibernate.Cfg;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Initializes a Unit of Work from the Hibernate Configuration XML file ('hibernate.cfg.xml') to create
+    /// a session that can be used in the Unit of Work implementor
+    /// </summary>
     public class UnitOfWorkFactory : IUnitOfWorkFactory
     {
         #region Fields

@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Races is an enumeration that represents the race someone can be
+    /// </summary>
     public enum Races
     {
         African,

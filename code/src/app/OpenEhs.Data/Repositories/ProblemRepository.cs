@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Problem Repository that handles the management and access of problems
+    /// </summary>
     public class ProblemRepository : IProblemRepository
     {
         private ISession Session

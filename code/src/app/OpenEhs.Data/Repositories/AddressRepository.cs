@@ -8,6 +8,9 @@ using OpenEhs.Data.Common;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Address Repository that handles the management and access of addresses
+    /// </summary>
     public class AddressRepository : IAddressRepository
     {
         private ISession Session

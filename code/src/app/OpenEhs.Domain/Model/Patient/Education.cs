@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Education represents how much education the patient has obtained
+    /// </summary>
     public enum Education
     {
         NotApplicable,

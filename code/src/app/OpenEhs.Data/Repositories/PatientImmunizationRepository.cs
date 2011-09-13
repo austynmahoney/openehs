@@ -7,16 +7,26 @@ using OpenEhs.Domain;
 using NHibernate;
 
 namespace OpenEhs.Data {
-    public class PatientImmunizationRepository : IPatientImmunizationRepository {
+
+    /// <summary>
+    /// Patient Immunization Repository that handles the management and access of patient immunizations
+    /// </summary>
+    public class PatientImmunizationRepository : IPatientImmunizationRepository 
+    {
         private ISession Session {
-            get {
+            get 
+            {
                 return UnitOfWork.CurrentSession;
             }
         }
-        public PatientImmunization Get(int id) {
+
+        public PatientImmunization Get(int id) 
+        {
             return Session.Get<PatientImmunization>(id);
         }
-        public IList<PatientImmunization> GetAll() {
+
+        public IList<PatientImmunization> GetAll() 
+        {
             ICriteria criteria = Session.CreateCriteria<PatientImmunization>();
             return criteria.List<PatientImmunization>();
         }
@@ -26,10 +36,13 @@ namespace OpenEhs.Data {
             throw new NotImplementedException();
         }
 
-        public void Add(PatientImmunization entity) {
+        public void Add(PatientImmunization entity) 
+        {
             Session.Save(entity);
         }
-        public void Remove(PatientImmunization entity) {
+
+        public void Remove(PatientImmunization entity) 
+        {
             Session.Delete(entity);
         }
     }

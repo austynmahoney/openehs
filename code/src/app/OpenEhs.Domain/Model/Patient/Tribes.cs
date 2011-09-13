@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Tribes is an enumeration that represents the tribe a patient can be in
+    /// </summary>
     public enum Tribes
     {
         Ashanti,

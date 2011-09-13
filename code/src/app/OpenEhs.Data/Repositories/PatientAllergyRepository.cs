@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Patient Allergy Repository that handles the management and access of patient allergies
+    /// </summary>
     public class PatientAllergyRepository : IPatientAllergyRepository
     {
         private ISession Session

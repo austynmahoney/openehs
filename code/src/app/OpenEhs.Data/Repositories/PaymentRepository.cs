@@ -6,6 +6,9 @@ using NHibernate;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Payment Repository that handles the management and access of payments
+    /// </summary>
     public class PaymentRepository : IPaymentRepository
     {
         private ISession Session

@@ -6,6 +6,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Template Repository that handles the management and access of templates
+    /// </summary>
     public class TemplateRepository : ITemplateRepository
     {
         private ISession Session

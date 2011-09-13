@@ -11,6 +11,10 @@ using NHibernate.Cfg;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Contains the structure for a class that can initialize a Unit of Work from the Hibernate Configuration XML file 
+    /// ('hibernate.cfg.xml') to create a session that can be used in the Unit of Work implementor
+    /// </summary>
     public interface IUnitOfWorkFactory
     {
         Configuration Configuration { get; }

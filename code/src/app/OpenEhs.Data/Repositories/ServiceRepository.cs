@@ -15,6 +15,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Service Repository that handles the management and access of services
+    /// </summary>
     public class ServiceRepository : IServiceRepository
     {
         private ISession Session

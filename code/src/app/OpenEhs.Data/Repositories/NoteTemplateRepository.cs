@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Note Template Repository that handles the management and access of note templates
+    /// </summary>
     public class NoteTemplateRepository : INoteTemplateRepository
     {
         private ISession Session

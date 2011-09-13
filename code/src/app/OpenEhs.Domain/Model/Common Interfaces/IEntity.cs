@@ -8,6 +8,9 @@
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// IEntity is an interface that is used to ensure that each business object has an Id property
+    /// </summary>
     public interface IEntity
     {
         int Id { get; }

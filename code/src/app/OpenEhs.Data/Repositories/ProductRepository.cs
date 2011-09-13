@@ -15,6 +15,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Product Repository that handles the management and access of products
+    /// </summary>
     public class ProductRepository : IProductRepository
     {
         private ISession Session

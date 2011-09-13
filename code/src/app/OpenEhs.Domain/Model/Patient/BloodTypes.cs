@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// BloodTypes represents the types of blood you can have
+    /// </summary>
     public enum BloodTypes
     {
         ABpositive,

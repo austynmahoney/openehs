@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Enumeration of Countries that can be selected for an Address
+    /// </summary>
     public enum Country
     {
         Afghanistan,

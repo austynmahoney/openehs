@@ -12,6 +12,9 @@ using NHibernate;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Follows the 'Unit of Work' pattern that manages the transactions and commits to the database
+    /// </summary>
     public class UnitOfWorkImplementor : IUnitOfWorkImplementor
     {
         #region Fields

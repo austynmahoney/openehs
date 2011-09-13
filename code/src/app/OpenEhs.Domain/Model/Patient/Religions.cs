@@ -1,5 +1,8 @@
 ﻿namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Religions represents the religion a patient can be
+    /// </summary>
     public enum Religions
     {
         Babism,

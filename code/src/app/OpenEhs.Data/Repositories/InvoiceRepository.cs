@@ -7,6 +7,9 @@ using NHibernate.Criterion;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Invoice Repository that handles the management and access of invoices
+    /// </summary>
     public class InvoiceRepository : IInvoiceRepository
     {
         private ISession Session

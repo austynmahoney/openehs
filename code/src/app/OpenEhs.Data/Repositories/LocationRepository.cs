@@ -6,6 +6,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// Location Repository that handles the management and access of locations
+    /// </summary>
     public class LocationRepository : ILocationRepository
     {
         private ISession Session

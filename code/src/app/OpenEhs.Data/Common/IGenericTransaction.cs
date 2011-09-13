@@ -10,6 +10,9 @@ using System;
 
 namespace OpenEhs.Data
 {
+    /// <summary>
+    /// This represents the structure for a generic transaction that is used as database transaction
+    /// </summary>
     public interface IGenericTransaction : IDisposable
     {
         void Commit();

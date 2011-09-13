@@ -8,6 +8,9 @@
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Relationship represents the relationship the emergency contact has with the patient
+    /// </summary>
     public enum Relationship
     {
         Spouse = 0,

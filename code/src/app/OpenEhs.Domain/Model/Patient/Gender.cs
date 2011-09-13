@@ -13,6 +13,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Gender is an enumeration that represents the gender of the patient
+    /// </summary>
     public enum Gender
     {
         Male,
