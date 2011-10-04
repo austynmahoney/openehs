@@ -5,6 +5,10 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// Admin View Model contains the functionality for getting products, categories, locations, services, allergies, immunizations,
+    /// medications, and templates from their corresponding repository.
+    /// </summary>
     public class AdminViewModel
     {
         private readonly IProductRepository _productRepository;

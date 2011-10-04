@@ -10,6 +10,10 @@ namespace OpenEhs.Web
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
+    /// <summary>
+    /// MvcApplication contains the registration of routes so that you can access pages like /Patient/1000
+    /// and /Roles/ instead of the long format
+    /// </summary>
     public class MvcApplication : HttpApplication
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)

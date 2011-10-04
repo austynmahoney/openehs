@@ -4,11 +4,20 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Product Controller contains the functionality for creating, deleting, and viewing products
+    /// </summary>
     [Authorize(Roles="Administrators")]
     public class ProductController : Controller
     {
         //
         // GET: /Product/
+
+        /// <summary>
+        /// Get the index for the products page
+        /// /Product/
+        /// </summary>
+        /// <returns>View for the product index</returns>
         public ActionResult Index()
         {
             var products = new ProductRepository().GetAll();

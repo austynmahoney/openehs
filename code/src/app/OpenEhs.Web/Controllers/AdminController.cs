@@ -9,6 +9,10 @@ using OpenEhs.Web.Models;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Admin Controller contains the necessary functions to control the views of the admin page and 
+    /// to manage admin options
+    /// </summary>
     [Authorize(Roles="Administrators")]
     public class AdminController : Controller
     {
@@ -30,6 +34,10 @@ namespace OpenEhs.Web.Controllers
 
         #region ProductMethods
 
+        /// <summary>
+        /// Add product to the system
+        /// </summary>
+        /// <returns>Result of the add</returns>
         public JsonResult AddProduct()
         {
             try
@@ -65,6 +73,10 @@ namespace OpenEhs.Web.Controllers
 
         }
 
+        /// <summary>
+        /// Edit a product and return results
+        /// </summary>
+        /// <returns>Result of the update</returns>
         public JsonResult EditProduct()
         {
             try
@@ -90,6 +102,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Remove product from the system
+        /// </summary>
+        /// <returns>result of the delete</returns>
         public JsonResult RemoveProduct()
         {
             try
@@ -113,6 +129,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Generates a list of products
+        /// </summary>
+        /// <returns></returns>
         public JsonResult ProductList()
         {
             try
@@ -148,6 +168,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Generate a list of services
+        /// </summary>
+        /// <returns></returns>
         public JsonResult ServiceList()
         {
             try

@@ -5,6 +5,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Staff role represents the role that the staff member will have in the surgery
+    /// </summary>
     public enum StaffRole
     {
         Surgeon = 0,

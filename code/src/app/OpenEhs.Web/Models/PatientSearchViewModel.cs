@@ -7,6 +7,9 @@ using OpenEhs.Data;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// Patient Search View Model contains the data for patient searching and retrieval
+    /// </summary>
     public class PatientSearchViewModel
     {
         private IList<Patient> _patients;

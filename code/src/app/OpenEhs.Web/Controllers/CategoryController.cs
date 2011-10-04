@@ -4,6 +4,10 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Category Controller contains the necessary functions to control the views of the category page and 
+    /// to manage category creation and details
+    /// </summary>
     [Authorize]
     public class CategoryController : Controller
     {

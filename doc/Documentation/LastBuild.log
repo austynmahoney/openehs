@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.3.0" projectFile="C:\Development\OpenEHS\doc\OpenEHSDocumentation.shfbproj" started="9/12/2011 8:20:29 PM">
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.3.0" projectFile="C:\Development\OpenEHS\doc\OpenEHSDocumentation.shfbproj" started="10/3/2011 8:16:06 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -89,15 +89,15 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.5928
+    Last step completed in 00:00:00.0312
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0468
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
   MrefBuilder (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: Loaded 8 assemblies for reflection and 38 dependency assemblies.
@@ -106,38 +106,38 @@ Generating reflection information...
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:10.3896
+    Last step completed in 00:00:03.0387
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0936
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     203 attribute nodes removed
     0 explicit interface implementations removed
     113 local and base class EII elements removed
-    Last step completed in 00:00:00.1404
+    Last step completed in 00:00:00.2028
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
-[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\Ryan\AppData\Local\Temp\tmp90A0.tmp
+  reflection.org -&gt; C:\Users\Ryan\AppData\Local\Temp\tmp8B61.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\Ryan\AppData\Local\Temp\tmp90A0.tmp -&gt; reflection.xml
+  C:\Users\Ryan\AppData\Local\Temp\tmp8B61.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:06.1620
+    Last step completed in 00:00:04.7268
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.2496
+    Last step completed in 00:00:00.2772
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -248,40 +248,40 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Whidbey\presentation.css
-    Last step completed in 00:00:02.6832
+    Last step completed in 00:00:00.6970
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
-[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.2324
+    Last step completed in 00:00:00.8650
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4212
+    Last step completed in 00:00:00.0440
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Development\OpenEHS\doc\Documentation\Working\sandcastle.config
-    Last step completed in 00:00:00.3120
+    Last step completed in 00:00:00.0410
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
-[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
   BuildAssembler (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: CopyFromFileComponent: Instantiating component.
@@ -1282,7 +1282,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Development\OpenEHS\doc\Documentation\Working\OpenEhs.Infrastructure.Logging.XML&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Development\OpenEHS\doc\Documentation\Working\OpenEhs.Infrastructure.Security.XML&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Development\OpenEHS\doc\Documentation\Working\OpenEhs.Web.XML&#39;.
-  Info: CopyFromIndexComponent: Indexed 145656 elements in 132 files.
+  Info: CopyFromIndexComponent: Indexed 145858 elements in 132 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -2608,7 +2608,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Allergy.Name
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Allergy.Patients
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.BloodPressure
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.BloodPressure
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.BloodPressure
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.BloodPressure.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.BloodPressure
@@ -2616,21 +2615,15 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.BloodPressure.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.BloodPressure.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.BloodPressure.Category
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.BloodPressure.Category
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.BloodPressure.Diastolic
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.BloodPressure.Diastolic
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.BloodPressure.Systolic
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.BloodPressure.Systolic
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.BloodPressure.ToString
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.BloodPressure.ToString
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Domain.BloodPressure.ToString
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.BloodPressureCategory
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.BloodPressureCategory
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.BloodTypes
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.CaseType
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.CaseType
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Category
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Category
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Category
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Category.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Category
@@ -2638,20 +2631,12 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Category.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Category.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Category.AddProduct(OpenEhs.Domain.Product)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Category.AddProduct(OpenEhs.Domain.Product)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;product&quot;/&gt; documentation for M:OpenEhs.Domain.Category.AddProduct(OpenEhs.Domain.Product)
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Category.DateCreated
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Category.DateCreated
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Category.Description
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Category.Description
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Category.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Category.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Category.IsActive
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Category.IsActive
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Category.Name
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Category.Name
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Category.Products
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Category.Products
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Country
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Education
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.EmergencyContact
@@ -2786,7 +2771,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Note.Title
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Note.Type
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.NoteTemplateCategory
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.NoteTemplateCategory
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.NoteTemplateCategory
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.NoteTemplateCategory.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.NoteTemplateCategory
@@ -2794,13 +2778,9 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.NoteTemplateCategory.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.NoteTemplateCategory.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.NoteTemplateCategory.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.NoteTemplateCategory.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.NoteTemplateCategory.Name
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.NoteTemplateCategory.Name
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.NoteTemplateCategory.Notes
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.NoteTemplateCategory.Notes
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.NoteTemplateCategory.Templates
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.NoteTemplateCategory.Templates
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.NoteType
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.OutputChart
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.OutputChart
@@ -2916,7 +2896,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.PatientMedication.Patient
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.PatientMedication.StartDate
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.PatientProblem
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.PatientProblem
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.PatientProblem
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.PatientProblem.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.PatientProblem
@@ -2924,11 +2903,8 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.PatientProblem.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.PatientProblem.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.PatientProblem.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.PatientProblem.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.PatientProblem.Patient
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.PatientProblem.Patient
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.PatientProblem.Problem
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.PatientProblem.Problem
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Payment
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Payment
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Payment.#ctor
@@ -2942,7 +2918,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Payment.IsActive
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Payment.PaymentDate
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Problem
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Problem
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Problem
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Problem.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Problem
@@ -2950,13 +2925,9 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Problem.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Problem.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Problem.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Problem.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Problem.Patients
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Problem.Patients
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Problem.ProblemName
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Problem.ProblemName
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Product
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Product
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Product
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Product.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Product
@@ -2964,75 +2935,35 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Product.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Product.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.Category
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.Category
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.Counter
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.Counter
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.IsActive
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.IsActive
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.Name
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.Name
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.Price
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.Price
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.QuantityOnHand
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.QuantityOnHand
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Product.Unit
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Product.Unit
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Races
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Races
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Relationship
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Relationship
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Religions
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Religions
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Role
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Role
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Role
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Role.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Role.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Role
   Info: BuildAssembler: Building topic Properties.T:OpenEhs.Domain.Role
   Info: BuildAssembler: Building topic Overload:OpenEhs.Domain.Role.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Role.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Role.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Role.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.#ctor(System.String,System.String,System.DateTime)
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Role.#ctor(System.String,System.String,System.DateTime)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;name&quot;/&gt; documentation for M:OpenEhs.Domain.Role.#ctor(System.String,System.String,System.DateTime)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;description&quot;/&gt; documentation for M:OpenEhs.Domain.Role.#ctor(System.String,System.String,System.DateTime)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;dateCreated&quot;/&gt; documentation for M:OpenEhs.Domain.Role.#ctor(System.String,System.String,System.DateTime)
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.AddUser(OpenEhs.Domain.User)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Role.AddUser(OpenEhs.Domain.User)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;user&quot;/&gt; documentation for M:OpenEhs.Domain.Role.AddUser(OpenEhs.Domain.User)
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.AddUsers(System.Collections.Generic.IList{OpenEhs.Domain.User})
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Role.AddUsers(System.Collections.Generic.IList{OpenEhs.Domain.User})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;users&quot;/&gt; documentation for M:OpenEhs.Domain.Role.AddUsers(System.Collections.Generic.IList{OpenEhs.Domain.User})
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.CompareTo(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Role.CompareTo(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Domain.Role.CompareTo(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;other&quot;/&gt; documentation for M:OpenEhs.Domain.Role.CompareTo(OpenEhs.Domain.Role)
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Role.DateCreated
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Role.DateCreated
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Role.Description
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Role.Description
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Role.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Role.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Role.Name
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Role.Name
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.RemoveUser(OpenEhs.Domain.User)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Role.RemoveUser(OpenEhs.Domain.User)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;user&quot;/&gt; documentation for M:OpenEhs.Domain.Role.RemoveUser(OpenEhs.Domain.User)
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.RemoveUsers(System.Collections.Generic.IList{OpenEhs.Domain.User})
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Role.RemoveUsers(System.Collections.Generic.IList{OpenEhs.Domain.User})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;users&quot;/&gt; documentation for M:OpenEhs.Domain.Role.RemoveUsers(System.Collections.Generic.IList{OpenEhs.Domain.User})
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Role.ToString
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.Role.ToString
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Domain.Role.ToString
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Role.Users
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Role.Users
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Service
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Service
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Service
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Service.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Service
@@ -3040,19 +2971,12 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Service.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Service.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Service.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Service.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Service.IsActive
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Service.IsActive
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Service.Name
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Service.Name
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Service.Price
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Service.Price
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.StaffRole
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.StaffRole
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.StaffType
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.StaffType
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Surgery
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Surgery
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Surgery
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Surgery.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Surgery
@@ -3060,21 +2984,13 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Surgery.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Surgery.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.CaseType
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.CaseType
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.CheckIn
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.CheckIn
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.EndTime
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.EndTime
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.Location
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.Location
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.Staff
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.Staff
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Surgery.StartTime
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Surgery.StartTime
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.SurgeryStaff
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.SurgeryStaff
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.SurgeryStaff
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.SurgeryStaff.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.SurgeryStaff
@@ -3082,13 +2998,9 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.SurgeryStaff.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.SurgeryStaff.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.SurgeryStaff.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.SurgeryStaff.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.SurgeryStaff.Role
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.SurgeryStaff.Role
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.SurgeryStaff.Staff
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.SurgeryStaff.Staff
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.SurgeryStaff.Surgery
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.SurgeryStaff.Surgery
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Template
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Template
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Template
@@ -3110,91 +3022,44 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Template.Title
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Template.Title
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Tribes
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Tribes
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.User
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.User
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.User
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.User.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.User.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.User
   Info: BuildAssembler: Building topic Properties.T:OpenEhs.Domain.User
   Info: BuildAssembler: Building topic Overload:OpenEhs.Domain.User.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.User.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.User.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.User.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.User.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;username&quot;/&gt; documentation for M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;password&quot;/&gt; documentation for M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;emailAddress&quot;/&gt; documentation for M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;passwordQuestion&quot;/&gt; documentation for M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;passwordAnswer&quot;/&gt; documentation for M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;isApproved&quot;/&gt; documentation for M:OpenEhs.Domain.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Address
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Address
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.User.AddRole(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.User.AddRole(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;role&quot;/&gt; documentation for M:OpenEhs.Domain.User.AddRole(OpenEhs.Domain.Role)
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.ApplicationName
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.ApplicationName
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.DateCreated
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.DateCreated
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.EmailAddress
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.EmailAddress
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.FailedPasswordAttemptCount
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.FailedPasswordAttemptCount
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.FirstName
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.FirstName
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.IpAddress
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.IpAddress
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.IsActive
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.IsActive
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.IsApproved
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.IsApproved
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.IsLockedOut
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.IsLockedOut
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.IsOnline
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.IsOnline
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.LastActivity
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.LastActivity
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.LastLogin
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.LastLogin
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.LastName
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.LastName
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.LastPasswordChange
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.LastPasswordChange
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.LicenseNumber
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.LicenseNumber
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.MiddleName
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.MiddleName
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Password
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Password
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.PasswordAnswer
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.PasswordAnswer
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.PasswordQuestion
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.PasswordQuestion
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.PatientCheckIns
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.PatientCheckIns
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.PhoneNumber
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.PhoneNumber
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.User.RemoveRole(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Domain.User.RemoveRole(OpenEhs.Domain.Role)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;role&quot;/&gt; documentation for M:OpenEhs.Domain.User.RemoveRole(OpenEhs.Domain.Role)
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Roles
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Roles
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.StaffType
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.StaffType
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Surgery
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Surgery
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Templates
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Templates
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.User.Username
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.User.Username
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Vitals
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.Vitals
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Domain.Vitals
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Vitals.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Domain.Vitals
@@ -3202,29 +3067,17 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Domain.Vitals.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Domain.Vitals.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.BloodPressure
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.BloodPressure
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.HeartRate
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.HeartRate
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.Height
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.Height
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.Id
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.Id
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.IsActive
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.IsActive
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.PatientCheckIn
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.PatientCheckIn
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.RespiratoryRate
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.RespiratoryRate
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.Temperature
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.Temperature
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.Time
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.Time
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.Type
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.Type
   Info: BuildAssembler: Building topic P:OpenEhs.Domain.Vitals.Weight
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Domain.Vitals.Weight
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.VitalsType
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Domain.VitalsType
   Info: BuildAssembler: Building topic N:OpenEhs.Domain.Exceptions
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:OpenEhs.Domain.Exceptions
   Info: BuildAssembler: Building topic T:OpenEhs.Domain.Exceptions.RequiredFieldException
@@ -3522,7 +3375,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic N:OpenEhs.Web
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:OpenEhs.Web
   Info: BuildAssembler: Building topic T:OpenEhs.Web.MvcApplication
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.MvcApplication
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.MvcApplication
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.MvcApplication.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.MvcApplication
@@ -3569,14 +3421,12 @@ Building reference help topics...
   Info: BuildAssembler: Building topic N:OpenEhs.Web.Controllers
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:OpenEhs.Web.Controllers
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.AccountController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.AccountController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ControllerBase&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Controllers.AccountController
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Controllers.AccountController.#ctor
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Mvc.Controller.Content(System.String)&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;M:System.Web.Mvc.Controller.Content(System.String,System.String)&#39;.
@@ -4190,75 +4040,46 @@ Building reference help topics...
   Info: BuildAssembler: Building topic Overload:OpenEhs.Web.Controllers.AccountController.Login
   Info: BuildAssembler: Building topic Overload:OpenEhs.Web.Controllers.AccountController.Register
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Controllers.AccountController.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.ChangePassword
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePassword
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePassword
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.ChangePassword(OpenEhs.Web.Models.ChangePasswordModel)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePassword(OpenEhs.Web.Models.ChangePasswordModel)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePassword(OpenEhs.Web.Models.ChangePasswordModel)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;model&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePassword(OpenEhs.Web.Models.ChangePasswordModel)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.ChangePasswordSuccess
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePasswordSuccess
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.ChangePasswordSuccess
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.CheckForUsernameAvailability(System.String)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.CheckForUsernameAvailability(System.String)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.CheckForUsernameAvailability(System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;username&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.CheckForUsernameAvailability(System.String)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Controllers.AccountController.FormsService
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Controllers.AccountController.FormsService
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.Initialize(System.Web.Routing.RequestContext)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Initialize(System.Web.Routing.RequestContext)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;requestContext&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Initialize(System.Web.Routing.RequestContext)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.Login
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Login
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Login
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.Login(OpenEhs.Web.Models.LogOnModel,System.String)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Login(OpenEhs.Web.Models.LogOnModel,System.String)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Login(OpenEhs.Web.Models.LogOnModel,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;model&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Login(OpenEhs.Web.Models.LogOnModel,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;returnUrl&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Login(OpenEhs.Web.Models.LogOnModel,System.String)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.LogOff
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.LogOff
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.LogOff
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Controllers.AccountController.MembershipService
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Controllers.AccountController.MembershipService
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.Register
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Register
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Register
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AccountController.Register(OpenEhs.Web.Models.RegisterModel)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Register(OpenEhs.Web.Models.RegisterModel)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Register(OpenEhs.Web.Models.RegisterModel)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;model&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.AccountController.Register(OpenEhs.Web.Models.RegisterModel)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.AdminController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.AdminController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -4898,8 +4719,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AdminController.AddProduct
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.AddProduct
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.AddProduct
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
@@ -4988,8 +4807,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AdminController.EditProduct
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.EditProduct
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.EditProduct
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
@@ -5006,25 +4823,20 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AdminController.ProductList
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.ProductList
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.ProductList
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AdminController.RemoveProduct
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.RemoveProduct
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.RemoveProduct
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.AdminController.ServiceList
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.ServiceList
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.AdminController.ServiceList
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.BillingController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.BillingController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -5752,7 +5564,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.CategoryController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.CategoryController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -6401,7 +6212,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.DashboardController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.DashboardController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -7033,7 +6843,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.HelpController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.HelpController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -7670,8 +7479,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.HelpController.Index
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.HelpController.Index
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.HelpController.Index
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
@@ -7704,7 +7511,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.HomeController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.HomeController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -8326,13 +8132,11 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.HomeController.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Controllers.HomeController.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.HomeController.Index
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.HomeController.Index
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.HomeController.Index
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.NoteController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.NoteController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -8956,46 +8760,33 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Controllers.NoteController.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.Create
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Create
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Create
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.Create(OpenEhs.Domain.Note)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Create(OpenEhs.Domain.Note)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Create(OpenEhs.Domain.Note)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;note&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Create(OpenEhs.Domain.Note)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.Delete(System.Int32)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Delete(System.Int32)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Delete(System.Int32)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;id&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Delete(System.Int32)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.Edit
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Edit
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Edit
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.Edit(OpenEhs.Domain.Note)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Edit(OpenEhs.Domain.Note)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Edit(OpenEhs.Domain.Note)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;note&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Edit(OpenEhs.Domain.Note)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.NoteController.Index
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Index
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.NoteController.Index
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.PatientController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.PatientController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -9721,9 +9512,7 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.PatientController.Create(OpenEhs.Web.Models.CreatePatientViewModel)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.PatientController.Create(OpenEhs.Web.Models.CreatePatientViewModel)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.PatientController.Create(OpenEhs.Web.Models.CreatePatientViewModel)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;model&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.PatientController.Create(OpenEhs.Web.Models.CreatePatientViewModel)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
@@ -9746,7 +9535,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.PatientController.Details(System.Int32)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.PatientController.Details(System.Int32)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.PatientController.Details(System.Int32)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;id&quot;/&gt; documentation for M:OpenEhs.Web.Controllers.PatientController.Details(System.Int32)
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
@@ -9803,7 +9591,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.JsonResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.ProductController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.ProductController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -10453,13 +10240,10 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.ProductController.Index
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.ProductController.Index
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.ProductController.Index
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.ReportsController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.ReportsController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -11123,7 +10907,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.FormCollection&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.FormCollection&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.RoleController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.RoleController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -11745,13 +11528,11 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.RoleController.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Controllers.RoleController.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Controllers.RoleController.Index
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Controllers.RoleController.Index
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Controllers.RoleController.Index
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.ActionResult&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Controllers.UserController
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Controllers.UserController
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.Controller&#39;.
@@ -12425,16 +12206,10 @@ Building reference help topics...
   Info: BuildAssembler: Building topic N:OpenEhs.Web.Helpers
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:OpenEhs.Web.Helpers
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Helpers.HtmlHelperExtensions
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Helpers.HtmlHelperExtensions
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Helpers.HtmlHelperExtensions
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Helpers.HtmlHelperExtensions
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;helper&quot;/&gt; documentation for M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;currentPage&quot;/&gt; documentation for M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;totalPages&quot;/&gt; documentation for M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;pageUrl&quot;/&gt; documentation for M:OpenEhs.Web.Helpers.HtmlHelperExtensions.PageLinks(System.Web.Mvc.HtmlHelper,System.Int32,System.Int32,System.Func{System.Int32,System.String})
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.HtmlHelper&#39;.
@@ -12443,49 +12218,23 @@ Building reference help topics...
   Info: BuildAssembler: Building topic N:OpenEhs.Web.Models
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:OpenEhs.Web.Models
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.AccountMembershipService
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.AccountMembershipService
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.AccountMembershipService
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AccountMembershipService.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AccountMembershipService.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.AccountMembershipService
   Info: BuildAssembler: Building topic Properties.T:OpenEhs.Web.Models.AccountMembershipService
   Info: BuildAssembler: Building topic Overload:OpenEhs.Web.Models.AccountMembershipService.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AccountMembershipService.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AccountMembershipService.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.AccountMembershipService.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AccountMembershipService.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.AccountMembershipService.#ctor(System.Web.Security.MembershipProvider)
-  Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AccountMembershipService.#ctor(System.Web.Security.MembershipProvider)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;provider&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.#ctor(System.Web.Security.MembershipProvider)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.AccountMembershipService.ChangePassword(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ChangePassword(System.String,System.String,System.String)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ChangePassword(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;userName&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ChangePassword(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;oldPassword&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ChangePassword(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;newPassword&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ChangePassword(System.String,System.String,System.String)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.AccountMembershipService.CreateUser(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.CreateUser(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.CreateUser(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;username&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.CreateUser(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;password&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.CreateUser(System.String,System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;email&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.CreateUser(System.String,System.String,System.String)
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.AccountMembershipService.MinPasswordLength
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.AccountMembershipService.MinPasswordLength
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.AccountMembershipService.ValidateUser(System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ValidateUser(System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ValidateUser(System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;userName&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ValidateUser(System.String,System.String)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;password&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountMembershipService.ValidateUser(System.String,System.String)
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.AccountValidation
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.AccountValidation
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.AccountValidation
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.AccountValidation
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.AccountValidation.ErrorCodeToString(System.Web.Security.MembershipCreateStatus)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.AccountValidation.ErrorCodeToString(System.Web.Security.MembershipCreateStatus)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.AccountValidation.ErrorCodeToString(System.Web.Security.MembershipCreateStatus)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;createStatus&quot;/&gt; documentation for M:OpenEhs.Web.Models.AccountValidation.ErrorCodeToString(System.Web.Security.MembershipCreateStatus)
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.AdminViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.AdminViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.AdminViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.AdminViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.AdminViewModel
@@ -12611,7 +12360,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.BillingViewModel.Total
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.BillingViewModel.Total
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.ChangePasswordModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.ChangePasswordModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.ChangePasswordModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.ChangePasswordModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.ChangePasswordModel
@@ -12625,7 +12373,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.ChangePasswordModel.OldPassword
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.ChangePasswordModel.OldPassword
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.CreatePatientViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.CreatePatientViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.CreatePatientViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.CreatePatientViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.CreatePatientViewModel
@@ -12753,7 +12500,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.SelectList&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.SelectList&#39;.
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.DailyWardReportViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.DailyWardReportViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.DailyWardReportViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.DailyWardReportViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.DailyWardReportViewModel
@@ -12765,7 +12511,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.DailyWardReportViewModel.Locations
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.DailyWardReportViewModel.Locations
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.DashboardViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.DashboardViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.DashboardViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.DashboardViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.DashboardViewModel
@@ -12781,20 +12526,14 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.DashboardViewModel.PatientsInMyWard
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.DashboardViewModel.PatientsInMyWard
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.FormsAuthenticationService
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.FormsAuthenticationService
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.FormsAuthenticationService
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.FormsAuthenticationService.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.FormsAuthenticationService
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.FormsAuthenticationService.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.FormsAuthenticationService.#ctor
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.FormsAuthenticationService.SignIn(System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.FormsAuthenticationService.SignIn(System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;userName&quot;/&gt; documentation for M:OpenEhs.Web.Models.FormsAuthenticationService.SignIn(System.String,System.Boolean)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;createPersistentCookie&quot;/&gt; documentation for M:OpenEhs.Web.Models.FormsAuthenticationService.SignIn(System.String,System.Boolean)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.FormsAuthenticationService.SignOut
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.FormsAuthenticationService.SignOut
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.IFormsAuthenticationService
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.IFormsAuthenticationService
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.IFormsAuthenticationService
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.IFormsAuthenticationService
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.IFormsAuthenticationService.SignIn(System.String,System.Boolean)
@@ -12804,7 +12543,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.IFormsAuthenticationService.SignOut
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.IFormsAuthenticationService.SignOut
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.IMembershipService
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.IMembershipService
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.IMembershipService
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.IMembershipService
   Info: BuildAssembler: Building topic Properties.T:OpenEhs.Web.Models.IMembershipService
@@ -12828,7 +12566,6 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;userName&quot;/&gt; documentation for M:OpenEhs.Web.Models.IMembershipService.ValidateUser(System.String,System.String)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;password&quot;/&gt; documentation for M:OpenEhs.Web.Models.IMembershipService.ValidateUser(System.String,System.String)
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.LocationReportViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.LocationReportViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.LocationReportViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.LocationReportViewModel.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.LocationReportViewModel.#ctor
@@ -12848,7 +12585,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.LocationReportViewModel.SelectedDate
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.LocationReportViewModel.SelectedDate
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.LogOnModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.LogOnModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.LogOnModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.LogOnModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.LogOnModel
@@ -12860,7 +12596,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.LogOnModel.UserName
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.LogOnModel.UserName
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.PatientSearchViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.PatientSearchViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.PatientSearchViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.PatientSearchViewModel.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.PatientSearchViewModel.#ctor
@@ -12885,7 +12620,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientSearchViewModel.SearchTerm
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientSearchViewModel.SearchTerm
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.PatientViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.PatientViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.PatientViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.PatientViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.PatientViewModel
@@ -12899,7 +12633,6 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.AddEncounter(OpenEhs.Domain.PatientCheckIn)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;checkIn&quot;/&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.AddEncounter(OpenEhs.Domain.PatientCheckIn)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.PatientViewModel.AddImmunization(OpenEhs.Domain.PatientImmunization)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.AddImmunization(OpenEhs.Domain.PatientImmunization)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;immunization&quot;/&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.AddImmunization(OpenEhs.Domain.PatientImmunization)
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.Address
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.Address
@@ -12924,11 +12657,9 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.CreationDate
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.CreationDate
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.CurrentInvoice
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.CurrentInvoice
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.CurrentMedications
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.CurrentMedications
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.CurrentUser
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.CurrentUser
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.DateOfBirth
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.DateOfBirth
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.Education
@@ -13029,8 +12760,6 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;checkIn&quot;/&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.RemoveEncounter(OpenEhs.Domain.PatientCheckIn)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.PatientViewModel.RemoveEncounter(System.Int32)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.PatientViewModel.RemoveImmunization(OpenEhs.Domain.PatientImmunization)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.RemoveImmunization(OpenEhs.Domain.PatientImmunization)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;immunization&quot;/&gt; documentation for M:OpenEhs.Web.Models.PatientViewModel.RemoveImmunization(OpenEhs.Domain.PatientImmunization)
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.PatientViewModel.RemoveImmunization(System.Int32)
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.SearchCheckIns
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.SearchCheckIns
@@ -13053,7 +12782,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.PatientViewModel.Users
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.PatientViewModel.Users
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.RegisterModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.RegisterModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.RegisterModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.RegisterModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.RegisterModel
@@ -13109,7 +12837,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.RegisterModel.Username
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.RegisterModel.Username
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.RoleViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.RoleViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.RoleViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.RoleViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.RoleViewModel
@@ -13117,9 +12844,7 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.RoleViewModel.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.RoleViewModel.#ctor
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.RoleViewModel.Roles
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.RoleViewModel.Roles
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.UserDetailsViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.UserDetailsViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.UserDetailsViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.UserDetailsViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.UserDetailsViewModel
@@ -13168,7 +12893,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.UserDetailsViewModel.Username
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.UserDetailsViewModel.Username
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.UserReportViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.UserReportViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.UserReportViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.UserReportViewModel.#ctor
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.UserReportViewModel.#ctor
@@ -13188,7 +12912,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.UserReportViewModel.SelectedDate
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.UserReportViewModel.SelectedDate
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.UserViewModel
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.UserViewModel
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Web.Models.UserViewModel
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Web.Models.UserViewModel.#ctor
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Web.Models.UserViewModel
@@ -13203,9 +12926,6 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.SelectList&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.SelectList&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Web.Models.UserViewModel.RolesToString(System.Collections.Generic.IList{OpenEhs.Domain.Role})
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Web.Models.UserViewModel.RolesToString(System.Collections.Generic.IList{OpenEhs.Domain.Role})
-  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.UserViewModel.RolesToString(System.Collections.Generic.IList{OpenEhs.Domain.Role})
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;roles&quot;/&gt; documentation for M:OpenEhs.Web.Models.UserViewModel.RolesToString(System.Collections.Generic.IList{OpenEhs.Domain.Role})
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.UserViewModel.SearchTerm
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.UserViewModel.SearchTerm
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.UserViewModel.SelectedRole
@@ -13213,7 +12933,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic P:OpenEhs.Web.Models.UserViewModel.Users
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Web.Models.UserViewModel.Users
   Info: BuildAssembler: Building topic T:OpenEhs.Web.Models.ValidatePasswordLengthAttribute
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Web.Models.ValidatePasswordLengthAttribute
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IClientValidatable&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IClientValidatable&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:System.Web.Mvc.IClientValidatable&#39;.
@@ -13251,17 +12970,23 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.ValidatePasswordLengthAttribute.IsValid(System.Object)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;value&quot;/&gt; documentation for M:OpenEhs.Web.Models.ValidatePasswordLengthAttribute.IsValid(System.Object)
   Info: Processed 1812 topics
-    Last step completed in 00:03:58.0458
+    Last step completed in 00:04:30.3665
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:01.9032
+    Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\.svn&#39; as it contains read-only or hidden folders/files
+    Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\fti&#39; as it contains read-only or hidden folders/files
+    Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\html&#39; as it contains read-only or hidden folders/files
+    Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\icons&#39; as it contains read-only or hidden folders/files
+    Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\scripts&#39; as it contains read-only or hidden folders/files
+    Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\styles&#39; as it contains read-only or hidden folders/files
+    Last step completed in 00:00:00.0468
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
-[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
 Sandcastle Help File Builder HTML Extract, version 1.9.3.0
 Copyright c 2006-2011, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
@@ -13273,16 +12998,16 @@ Processed 1812 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Development\OpenEHS\doc\Documentation\Working\WebKI.xml
 Saving website table of contents to C:\Development\OpenEHS\doc\Documentation\Working\WebTOC.xml
-    Last step completed in 00:00:05.2416
+    Last step completed in 00:00:05.1480
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:10.4520
+    Last step completed in 00:00:10.1556
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -15234,15 +14959,15 @@ C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\scripts\script_m
 C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Development\OpenEHS\doc\Documentation\scripts\SplitScreen.js
 C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\styles\Presentation.css
 C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Whidbey\presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\styles\Whidbey\presentation.css
-    Last step completed in 00:00:23.2772
+    Last step completed in 00:00:20.0030
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.5772
+    Last step completed in 00:00:00.8580
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 09/12/2011 08:25 PM.  Total time: 00:05:04.8783
+Build completed successfully at 10/03/2011 08:21 PM.  Total time: 00:05:17.2041
 
 </buildStep>
 </shfbBuild>

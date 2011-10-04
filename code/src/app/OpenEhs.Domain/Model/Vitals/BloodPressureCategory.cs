@@ -8,6 +8,9 @@
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Blood Pressure Category represents the category a bloodpressure can be contained in
+    /// </summary>
     public enum BloodPressureCategory
     {
         None,

@@ -11,6 +11,9 @@ namespace OpenEhs.Web.Models
 {
     #region Models
 
+    /// <summary>
+    /// Change password model contains all the form data and validation rules for changing a password
+    /// </summary>
     public class ChangePasswordModel
     {
         [Required]
@@ -30,6 +33,9 @@ namespace OpenEhs.Web.Models
         public string ConfirmPassword { get; set; }
     }
 
+    /// <summary>
+    /// LogOn model contains all the form data and validation rules for logging on
+    /// </summary>
     public class LogOnModel
     {
         [Required]
@@ -42,7 +48,9 @@ namespace OpenEhs.Web.Models
         public string Password { get; set; }
     }
 
-
+    /// <summary>
+    /// Register Model contains all the form data and validation rules for registering a new user
+    /// </summary>
     public class RegisterModel
     {
         [Required]
@@ -157,6 +165,15 @@ namespace OpenEhs.Web.Models
     // how to create an abstract wrapper around such a type in order to make the AccountController
     // code unit testable.
 
+    /// <summary>
+    /// IMembershipService contains all the required members for changing password and creating a user
+    /// </summary>
+    /// <originalSummary>
+    /// The FormsAuthentication type is sealed and contains static members, so it is difficult to
+    /// unit test code that calls its members. The interface and helper class below demonstrate
+    /// how to create an abstract wrapper around such a type in order to make the AccountController
+    /// code unit testable.
+    /// </originalSummary>
     public interface IMembershipService
     {
         int MinPasswordLength { get; }
@@ -165,21 +182,37 @@ namespace OpenEhs.Web.Models
         bool ChangePassword(string userName, string oldPassword, string newPassword);
     }
 
+    /// <summary>
+    /// Account membership service 
+    /// </summary>
     public class AccountMembershipService : IMembershipService
     {
+        /// <summary>
+        /// Membership provider (via .NET framework)
+        /// </summary>
         private readonly MembershipProvider _provider;
 
 
+        /// <summary>
+        /// Default constructor
+        /// </summary>
         public AccountMembershipService()
             : this(null)
         {
         }
 
+        /// <summary>
+        /// Constructor that takes in a membership provider
+        /// </summary>
+        /// <param name="provider">.NET membership provider</param>
         public AccountMembershipService(MembershipProvider provider)
         {
             _provider = provider ?? Membership.Provider;
         }
 
+        /// <summary>
+        /// Minimum password length for creating or changing password 
+        /// </summary>
         public int MinPasswordLength
         {
             get
@@ -188,6 +221,12 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Validate user through .NET provider
+        /// </summary>
+        /// <param name="userName">username to validate</param>
+        /// <param name="password">password of the username to validate</param>
+        /// <returns>Whether or not the user is valid</returns>
         public bool ValidateUser(string userName, string password)
         {
             if (String.IsNullOrEmpty(userName)) throw new ArgumentException("Value cannot be null or empty.", "userName");
@@ -196,6 +235,13 @@ namespace OpenEhs.Web.Models
             return _provider.ValidateUser(userName, password);
         }
 
+        /// <summary>
+        /// Create a user through the .NET membership provider
+        /// </summary>
+        /// <param name="username">username of the user to create</param>
+        /// <param name="password">password of the user account to create</param>
+        /// <param name="email">email of the user account to create</param>
+        /// <returns>status of the membership creation</returns>
         public MembershipCreateStatus CreateUser(string username, string password, string email)
         {
             if (String.IsNullOrEmpty(username)) throw new ArgumentException("Value cannot be null or empty.", "userName");
@@ -209,6 +255,13 @@ namespace OpenEhs.Web.Models
             return status;
         }
 
+        /// <summary>
+        /// Change password for a user
+        /// </summary>
+        /// <param name="userName">username to change the password for</param>
+        /// <param name="oldPassword">the old password for the user</param>
+        /// <param name="newPassword">the new password to change it to</param>
+        /// <returns></returns>
         public bool ChangePassword(string userName, string oldPassword, string newPassword)
         {
             if (String.IsNullOrEmpty(userName)) throw new ArgumentException("Value cannot be null or empty.", "userName");
@@ -233,14 +286,25 @@ namespace OpenEhs.Web.Models
         }
     }
 
+    /// <summary>
+    /// Forms authentication service that provides sign in and sign out functionality
+    /// </summary>
     public interface IFormsAuthenticationService
     {
         void SignIn(string userName, bool createPersistentCookie);
         void SignOut();
     }
 
+    /// <summary>
+    /// Implementation of a forms authentication service that provides sign in and sign out functionality
+    /// </summary>
     public class FormsAuthenticationService : IFormsAuthenticationService
     {
+        /// <summary>
+        /// Sign in and create persitant cookie for the user 
+        /// </summary>
+        /// <param name="userName">username to log in</param>
+        /// <param name="createPersistentCookie">whether or not the cookie should be persistant</param>
         public void SignIn(string userName, bool createPersistentCookie)
         {
             if (String.IsNullOrEmpty(userName)) throw new ArgumentException("Value cannot be null or empty.", "userName");
@@ -248,6 +312,9 @@ namespace OpenEhs.Web.Models
             FormsAuthentication.SetAuthCookie(userName, createPersistentCookie);
         }
 
+        /// <summary>
+        /// Sign out of the forms authentication
+        /// </summary>
         public void SignOut()
         {
             FormsAuthentication.SignOut();
@@ -256,8 +323,17 @@ namespace OpenEhs.Web.Models
     #endregion
 
     #region Validation
+
+    /// <summary>
+    /// Validation for account access
+    /// </summary>
     public static class AccountValidation
     {
+        /// <summary>
+        /// Get the string representation of an error code returned by member creation
+        /// </summary>
+        /// <param name="createStatus">the error status</param>
+        /// <returns></returns>
         public static string ErrorCodeToString(MembershipCreateStatus createStatus)
         {
             // See http://go.microsoft.com/fwlink/?LinkID=177550 for
@@ -297,6 +373,9 @@ namespace OpenEhs.Web.Models
         }
     }
 
+    /// <summary>
+    /// Password validation rules
+    /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public sealed class ValidatePasswordLengthAttribute : ValidationAttribute, IClientValidatable
     {

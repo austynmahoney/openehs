@@ -13,6 +13,9 @@ using System.Text;
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Vitals Type represents the type of vitals taken
+    /// </summary>
     public enum VitalsType
     {
         Initial = 0,

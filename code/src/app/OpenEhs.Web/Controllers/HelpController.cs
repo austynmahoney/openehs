@@ -1,10 +1,19 @@
 ﻿using System.Web.Mvc;
 
 namespace OpenEhs.Web.Controllers {
+
+    /// <summary>
+    /// Help Controller provides the views and functionality of navigating the help pages
+    /// </summary>
     public class HelpController : Controller {
         //
         // GET: /Help/
 
+        /// <summary>
+        /// Get the index for help
+        /// /Help/
+        /// </summary>
+        /// <returns>View for the help page</returns>
         public ActionResult Index() {
             return View();
         }

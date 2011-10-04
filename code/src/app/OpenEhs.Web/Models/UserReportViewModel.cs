@@ -7,6 +7,9 @@ using System.Data;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// User Report View Model contains the validation rules for report creation
+    /// </summary>
     public class UserReportViewModel
     {
         [Required(ErrorMessage = "A date is required for the report")]

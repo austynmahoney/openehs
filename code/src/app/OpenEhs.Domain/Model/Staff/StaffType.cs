@@ -8,6 +8,9 @@
 
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// StaffType enumeration represents the Staff Type and acts as their 'role'
+    /// </summary>
     public enum StaffType
     {
         Physician = 0,

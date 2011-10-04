@@ -9,6 +9,9 @@ using MySql.Data;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Reports Controller contains functionality for generating reports
+    /// </summary>
     [Authorize(Roles="Administrators, OPDAdministrators")]
     public class ReportsController : Controller
     {

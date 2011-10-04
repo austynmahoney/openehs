@@ -9,6 +9,9 @@
 using System;
 namespace OpenEhs.Domain
 {
+    /// <summary>
+    /// Blood Pressure represents the blood pressure vital that is taken
+    /// </summary>
     public class BloodPressure
     {
 
@@ -16,6 +19,11 @@ namespace OpenEhs.Domain
 
         public virtual int Systolic {get; set;}
         public virtual int Diastolic {get; set;}
+
+        /// <summary>
+        /// The the category that this blood pressure lies within (normal, prehypertension, stage one hypertension,
+        /// stage two hypertension, and crisis
+        /// </summary>
         public BloodPressureCategory Category
         {
             get
@@ -46,6 +54,10 @@ namespace OpenEhs.Domain
 
         #endregion
 
+        /// <summary>
+        /// Get the blood pressure in a human readable string
+        /// </summary>
+        /// <returns>Systolic / Diastolic</returns>
         public override string ToString()
         {
             return Systolic + "/" + Diastolic;

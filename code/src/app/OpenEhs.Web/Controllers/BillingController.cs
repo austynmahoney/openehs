@@ -8,6 +8,10 @@ using System.Globalization;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Billing Controller contains the necessary functions to control the views of the billing page and 
+    /// to manage billing options
+    /// </summary>
     [Authorize(Roles="Administrators")]
     public class BillingController : Controller
     {

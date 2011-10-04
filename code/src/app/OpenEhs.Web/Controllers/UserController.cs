@@ -6,6 +6,9 @@ using OpenEhs.Web.Models;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// User Controller contains functionality for user creation, approving, viewing, and role management
+    /// </summary>
     [Authorize(Roles="Administrators")]
     public class UserController : Controller
     {

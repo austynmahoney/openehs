@@ -12,6 +12,9 @@ namespace OpenEhs.Web.Models
 {
     #region Models
 
+    /// <summary>
+    /// Patient View Model Contains the patient data and the validation rules for patient creation and modifications
+    /// </summary>
     public class PatientViewModel
     {
         
@@ -650,11 +653,19 @@ namespace OpenEhs.Web.Models
             return false;
         }
 
+        /// <summary>
+        /// Add an immunization to a patient
+        /// </summary>
+        /// <param name="immunization"></param>
         public void AddImmunization(PatientImmunization immunization)
         {
             Immunizations.Add(immunization);
         }
-
+        
+        /// <summary>
+        /// Remove a immunization from a patient
+        /// </summary>
+        /// <param name="immunization">Immunization to remove</param>
         public void RemoveImmunization(PatientImmunization immunization)
         {
             Immunizations.Remove(immunization);
@@ -695,6 +706,9 @@ namespace OpenEhs.Web.Models
             return 0;
         }
 
+        /// <summary>
+        /// Get the current invoice for the patient checked in
+        /// </summary>
         public Invoice CurrentInvoice
         {
             get
@@ -711,6 +725,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get the current user that is logged into the system
+        /// </summary>
         public User CurrentUser
         {
             get

@@ -11,6 +11,10 @@ using OpenEhs.Web.Models;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Patient Controller contains the functionality to navigate through a patient check in,
+    /// handles patient edits, create, and allows you to view details within.
+    /// </summary>
     [Authorize(Roles = "OPDClerks, OPDAdministrators, Administrators")]
     public class PatientController : Controller
     {
@@ -57,6 +61,11 @@ namespace OpenEhs.Web.Controllers
             return View(patient);
         }
 
+        /// <summary>
+        /// Creates a new patient based on the create patient view model
+        /// </summary>
+        /// <param name="model">create patient view model</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Create(CreatePatientViewModel model)
         {
@@ -128,6 +137,11 @@ namespace OpenEhs.Web.Controllers
 
         #endregion
 
+        /// <summary>
+        /// Gets patient details and passes them to the patient view
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public ActionResult Details(int id)
         {
             var patientViewModel = new PatientViewModel(id);

@@ -7,6 +7,9 @@ using System.Data;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// Location Report View Model contains the validation rules and data for the location report
+    /// </summary>
     public class LocationReportViewModel
     {
         [Required(ErrorMessage = "A date is required for the report")]

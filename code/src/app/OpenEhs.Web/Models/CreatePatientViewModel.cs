@@ -7,6 +7,10 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// Create patient view model contains the data and validation required for creating a patient and data sources
+    /// for drop down lists
+    /// </summary>
     public class CreatePatientViewModel
     {
         [Required(ErrorMessage="Patient's First Name is required.")]

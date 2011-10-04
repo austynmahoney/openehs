@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// User Details View model contains the data for creating or modifying a user
+    /// </summary>
     public class UserDetailsViewModel
     {
         private User _user;

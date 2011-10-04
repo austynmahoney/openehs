@@ -7,6 +7,10 @@ using OpenEhs.Web.Models;
 
 namespace OpenEhs.Web.Controllers
 {
+    /// <summary>
+    /// Dashboard Controller contains the necessary functions to control the views of the dashboard page and 
+    /// to manage the viewing of recent check-ins
+    /// </summary>
     [Authorize]
     public class DashboardController : Controller
     {

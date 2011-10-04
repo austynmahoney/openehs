@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// User View Model contains the data for getting roles and assigning roles
+    /// </summary>
     public class UserViewModel
     {
         public PagedList<User> Users { get; set; }
@@ -32,6 +35,11 @@ namespace OpenEhs.Web.Models
             Users = users;
         }
 
+        /// <summary>
+        /// RolesToString generates a concatinated string of the users roles
+        /// </summary>
+        /// <param name="roles">the users roles</param>
+        /// <returns>a concatinated string of the users roles</returns>
         public static string RolesToString(IList<Role> roles)
         {
             var result = new StringBuilder();

@@ -9,6 +9,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Web.Models
 {
+    /// <summary>
+    /// Daily Ward Report View Model contain the data for the daily ward report
+    /// </summary>
     public class DailyWardReportViewModel
     {
         public DailyWardReportViewModel()
