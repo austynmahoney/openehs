@@ -12,6 +12,9 @@ namespace OpenEhs.Data
     /// </summary>
     public class InvoiceRepository : IInvoiceRepository
     {
+        /// <summary>
+        /// the current session from the unit of work
+        /// </summary>
         private ISession Session
         {
             get
@@ -47,6 +50,10 @@ namespace OpenEhs.Data
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Get the top 25 invoices ordered by the most recently created invoice
+        /// </summary>
+        /// <returns></returns>
         public IList<Invoice> GetTop25()
         {
             ICriteria criteria = Session.CreateCriteria<Invoice>();
@@ -67,6 +74,11 @@ namespace OpenEhs.Data
             return criteria.List<InvoiceItem>();
         }
 
+        /// <summary>
+        /// Get item from an invoice that matches the item id passed in
+        /// </summary>
+        /// <param name="itemId">id of the item</param>
+        /// <returns></returns>
         public InvoiceItem GetItem(int itemId)
         {
             IList<InvoiceItem> lineItems = GetAllItems();

@@ -7,6 +7,12 @@ namespace OpenEhs.Data
 {
     public static class MySqlUtilities
     {
+        /// <summary>
+        /// Backup a schema to a specific directory
+        /// </summary>
+        /// <param name="schemaName">schema to backup</param>
+        /// <param name="rootPassword">root password of the database</param>
+        /// <param name="destinationDirectory">directory that you want to copy the backup to</param>
         public static void Backup(string schemaName, string rootPassword, string destinationDirectory)
         {
             var mySqlCommandLineTool = ConfigurationManager.AppSettings["MySql.BinDirectory"];
@@ -43,6 +49,12 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Restore a schema from a specific backup file
+        /// </summary>
+        /// <param name="schemaName">schema to backup</param>
+        /// <param name="rootPassword">root password of the database</param>
+        /// <param name="backupFileName">directory that you want to copy the backup to</param>
         public static void Restore(string schemaName, string rootPassword, string backupFileName)
         {
             var mySqlCommandLineTool = ConfigurationManager.AppSettings["MySql.BinDirectory"];
@@ -81,6 +93,11 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Event that is called if an error occurs in the process of backing up or restoring a database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         static void process_ErrorDataReceived(object sender, DataReceivedEventArgs e)
         {
             // TODO: Create a custom exception for this scenario.

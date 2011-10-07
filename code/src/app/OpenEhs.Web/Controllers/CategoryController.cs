@@ -11,8 +11,11 @@ namespace OpenEhs.Web.Controllers
     [Authorize]
     public class CategoryController : Controller
     {
-        //
-        // GET: /Category/
+        /// <summary>
+        /// Gets the main page for categories
+        /// /Category/
+        /// </summary>
+        /// <returns>main page view</returns>
         public ActionResult Index()
         {
             var categories = new CategoryRepository().GetAll();

@@ -11,6 +11,9 @@ namespace OpenEhs.Data
     /// </summary>
     public class PaymentRepository : IPaymentRepository
     {
+        /// <summary>
+        /// the current session from the unit of work
+        /// </summary>
         private ISession Session
         {
             get

@@ -79,6 +79,9 @@ namespace OpenEhs.Infrastructure.Security
             get { return 0; }
         }
 
+        /// <summary>
+        /// Password strength regular expression that ensures a users password meets the requirement
+        /// </summary>
         public override string PasswordStrengthRegularExpression
         {
             get { return @"(?=.{6,})(?=(.*\d){1,})(?=(.*\W){1,})"; }
@@ -99,6 +102,18 @@ namespace OpenEhs.Infrastructure.Security
 
         #region Methods
 
+        /// <summary>
+        /// Create a new membership user
+        /// </summary>
+        /// <param name="username">username for the new user</param>
+        /// <param name="password">password for the new user</param>
+        /// <param name="email">email for the new user</param>
+        /// <param name="passwordQuestion">password question that can help the user get their password if they forget</param>
+        /// <param name="passwordAnswer">answer to the password question</param>
+        /// <param name="isApproved">whether or not the user is already approved</param>
+        /// <param name="providerUserKey">provider user key</param>
+        /// <param name="status">membership create status</param>
+        /// <returns>The new membership</returns>
         public override MembershipUser CreateUser(string username, string password, string email, string passwordQuestion, string passwordAnswer, bool isApproved, object providerUserKey, out MembershipCreateStatus status)
         {
             var user = new MembershipUser("OpenEhsMembershipProvider", username, null, email, passwordQuestion, "", false, false, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.MinValue);
@@ -142,6 +157,10 @@ namespace OpenEhs.Infrastructure.Security
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Update user from membership user
+        /// </summary>
+        /// <param name="user">membership user to save to user</param>
         public override void UpdateUser(MembershipUser user)
         {
             var existing = _userRepository.Get(user.UserName);
@@ -158,12 +177,23 @@ namespace OpenEhs.Infrastructure.Security
             existing.IsOnline = user.IsOnline;
         }
 
+        /// <summary>
+        /// Validate if username and password are a valid combination
+        /// </summary>
+        /// <param name="username">username to check</param>
+        /// <param name="password">password to check</param>
+        /// <returns></returns>
         public override bool ValidateUser(string username, string password)
         {
             var users = _userRepository.Find(username.ToLower(), password);
             return users.Count != 0;
         }
 
+        /// <summary>
+        /// Unlock user from being locked out of their account
+        /// </summary>
+        /// <param name="userName">username to unlock</param>
+        /// <returns></returns>
         public override bool UnlockUser(string userName)
         {
             var user = _userRepository.Get(userName);
@@ -177,6 +207,12 @@ namespace OpenEhs.Infrastructure.Security
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Get membership user from username
+        /// </summary>
+        /// <param name="username">username to get membership user for</param>
+        /// <param name="userIsOnline">whether or not the user is online</param>
+        /// <returns></returns>
         public override MembershipUser GetUser(string username, bool userIsOnline)
         {
             var user = _userRepository.Get(username);
@@ -218,6 +254,11 @@ namespace OpenEhs.Infrastructure.Security
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Check if username exists
+        /// </summary>
+        /// <param name="username">username to check</param>
+        /// <returns></returns>
         public bool UsernameExists(string username)
         {
             return _userRepository.CheckForUsernameAvailability(username);
@@ -226,6 +267,11 @@ namespace OpenEhs.Infrastructure.Security
 
         #region Private Methods
 
+        /// <summary>
+        /// Create MembershipUser from User
+        /// </summary>
+        /// <param name="user">User to create a membershipUser from</param>
+        /// <returns></returns>
         private static MembershipUser TransformUser(User user)
         {
             return new MembershipUser("OpenEhsMembershipProvider",

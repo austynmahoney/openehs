@@ -3,7 +3,6 @@
 
   <HelpKINode Title="ABnegative enumeration member" Url="html/fbb3c949-7fe0-0b30-8d39-bd6df7aa9acf.htm" />
   <HelpKINode Title="ABpositive enumeration member" Url="html/fbb3c949-7fe0-0b30-8d39-bd6df7aa9acf.htm" />
-  <HelpKINode Title="AccessingCurrentSessionWhenNoSessionOpenThrows method" Url="html/9366dc5f-2663-752b-87f8-529bee2c4459.htm" />
   <HelpKINode Title="AccountController class" Url="html/91ccafcf-2c97-143c-6dd0-0876bd9607d2.htm" />
   <HelpKINode Title="AccountController class" Url="html/a125eabc-e510-98cf-f3f2-1a66d19713e4.htm" />
   <HelpKINode Title="AccountController class">
@@ -485,23 +484,6 @@
   <HelpKINode Title="Cambodia enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="Cameroon enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="Canada enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
-  <HelpKINode Title="CanAddNewPatient method" Url="html/d04f5935-266e-9ef5-fb57-0c849fd8bc75.htm" />
-  <HelpKINode Title="CanAddUser method" Url="html/8b24e329-039b-65ff-6600-dc969d8610a8.htm" />
-  <HelpKINode Title="CanBackupDatabase method" Url="html/bea28892-e73f-c744-d653-7f1295c092b4.htm" />
-  <HelpKINode Title="CanClearLocalData method" Url="html/7686b93e-b77b-51ff-1c4f-dad1a8504535.htm" />
-  <HelpKINode Title="CanConfigureNHibernate method" Url="html/ec0bb557-aa37-6920-ce27-e84be7291795.htm" />
-  <HelpKINode Title="CanCreateAndAccessSessionFactory method" Url="html/35e0e6c2-2802-afcc-4da1-e1d336f918c5.htm" />
-  <HelpKINode Title="CanCreateNewCategory method" Url="html/51f85517-476f-a32f-5711-3f6785dc579a.htm" />
-  <HelpKINode Title="CanCreateUnitOfWork method" Url="html/493a550a-1c5f-e77c-1173-1e36232c7734.htm" />
-  <HelpKINode Title="CanDeleteCategory method" Url="html/0da3311b-4f22-3084-0460-3deff24c1fd7.htm" />
-  <HelpKINode Title="CanDeleteUser method" Url="html/e05ea348-63ea-cf71-7ed6-ac9cb19b72c4.htm" />
-  <HelpKINode Title="CanFindTestByName method" Url="html/50d05f5d-8ed9-7f84-d599-67fc7afbdfc4.htm" />
-  <HelpKINode Title="CanGetAllCategories method" Url="html/c04981a3-4721-e244-4586-987e75d2541a.htm" />
-  <HelpKINode Title="CanGetAllPatients method" Url="html/f32ac80f-37db-6349-61c6-096f00288f75.htm" />
-  <HelpKINode Title="CanGetCategoryById method" Url="html/76b21959-3177-e332-5a27-8e138fdc4e5f.htm" />
-  <HelpKINode Title="CanRestoreDatabase method" Url="html/02c36ff3-ba8c-c35a-dd6f-688439947e44.htm" />
-  <HelpKINode Title="CanStartUnitOfWork method" Url="html/ca90764f-9a48-d195-4c9a-51bf1699b837.htm" />
-  <HelpKINode Title="CanStoreValuesInLocalData method" Url="html/f1c9d431-69e0-236b-d5d1-8c4e8493710a.htm" />
   <HelpKINode Title="CapeVerde enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="CaseType enumeration" Url="html/9e74e388-96b4-c438-9189-7560c2fdb6d8.htm" />
   <HelpKINode Title="CaseType property" Url="html/74438fe1-4778-f047-0d6f-c9cecc8e3542.htm" />
@@ -568,20 +550,6 @@
   <HelpKINode Title="CategoryRepository.GetAll method" Url="html/7f943e97-b50e-ab99-1d3b-c638046914fb.htm" />
   <HelpKINode Title="CategoryRepository.GetPaged method" Url="html/06a4ea21-32e8-aff2-194b-4835aa35b47f.htm" />
   <HelpKINode Title="CategoryRepository.Remove method" Url="html/4d9701b3-714e-5ea5-2f1b-4dd7448deb73.htm" />
-  <HelpKINode Title="CategoryRepositoryTests class" Url="html/185eae28-78e8-1310-6f4c-3b12a971f9fa.htm" />
-  <HelpKINode Title="CategoryRepositoryTests class" Url="html/6ba885fb-0907-4b9e-8bbe-2c04fd48a48c.htm" />
-  <HelpKINode Title="CategoryRepositoryTests class">
-    <HelpKINode Title="about CategoryRepositoryTests class" Url="html/185eae28-78e8-1310-6f4c-3b12a971f9fa.htm" />
-    <HelpKINode Title="all members" Url="html/6ba885fb-0907-4b9e-8bbe-2c04fd48a48c.htm" />
-    <HelpKINode Title="constructor" Url="html/7c925a3c-f335-d253-e09e-adba7b42c5cd.htm" />
-    <HelpKINode Title="methods" Url="html/6b670b21-8bdb-bf9e-7aaa-14dae45226a8.htm" />
-  </HelpKINode>
-  <HelpKINode Title="CategoryRepositoryTests.CanCreateNewCategory method" Url="html/51f85517-476f-a32f-5711-3f6785dc579a.htm" />
-  <HelpKINode Title="CategoryRepositoryTests.CanDeleteCategory method" Url="html/0da3311b-4f22-3084-0460-3deff24c1fd7.htm" />
-  <HelpKINode Title="CategoryRepositoryTests.CanFindTestByName method" Url="html/50d05f5d-8ed9-7f84-d599-67fc7afbdfc4.htm" />
-  <HelpKINode Title="CategoryRepositoryTests.CanGetAllCategories method" Url="html/c04981a3-4721-e244-4586-987e75d2541a.htm" />
-  <HelpKINode Title="CategoryRepositoryTests.CanGetCategoryById method" Url="html/76b21959-3177-e332-5a27-8e138fdc4e5f.htm" />
-  <HelpKINode Title="CategoryRepositoryTests.CategoryRepositoryTests constructor" Url="html/7c925a3c-f335-d253-e09e-adba7b42c5cd.htm" />
   <HelpKINode Title="Catholic enumeration member" Url="html/7aaef721-8562-2da4-79a1-36e6a8f74ec1.htm" />
   <HelpKINode Title="Caucasian enumeration member" Url="html/92c9903e-987b-5883-4f70-323658ee191a.htm" />
   <HelpKINode Title="CaymanIslands enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
@@ -1128,7 +1096,6 @@
   <HelpKINode Title="GetClientValidationRules method" Url="html/993c3608-865c-7f9f-a21b-43c35f29e6dc.htm" />
   <HelpKINode Title="GetCurrentCheckin method" Url="html/7c41e6d7-7af8-06a5-f944-9709bf7fbb8c.htm" />
   <HelpKINode Title="GetCurrentClassLogger method" Url="html/d9ebe61a-ee0c-23f4-23e7-f782716afd6e.htm" />
-  <HelpKINode Title="GetCurrentClassLogger method" Url="html/fe17e398-0042-8a29-869e-71fa335027cc.htm" />
   <HelpKINode Title="GetInactiveProducts method" Url="html/48d61da9-3dec-0548-d645-b9cb4a47bef6.htm" />
   <HelpKINode Title="GetInactiveProducts method" Url="html/d97d6269-9d8a-d876-cf6a-72b9fcd1a8eb.htm" />
   <HelpKINode Title="GetInactiveServices method" Url="html/841d56b3-9e02-29de-0eba-b67328fd5533.htm" />
@@ -1137,7 +1104,6 @@
   <HelpKINode Title="GetLocations property" Url="html/9c7da7a7-c5fd-7c8b-dead-30d1ea5d37d6.htm" />
   <HelpKINode Title="GetLocations property" Url="html/e99043c4-0b3b-d2da-5830-5710c5522c81.htm" />
   <HelpKINode Title="GetLogger method" Url="html/711a6065-c045-3f9e-2c85-2867af6d0201.htm" />
-  <HelpKINode Title="GetLogger method" Url="html/d6d725e0-5add-135d-a2df-dfdfa4c6cf86.htm" />
   <HelpKINode Title="GetNumberOfInactiveProfiles method" Url="html/0c12069e-3fa4-0c1b-5bea-4e454a941381.htm" />
   <HelpKINode Title="GetNumberOfUsersOnline method" Url="html/6ce8847d-cfac-eaac-d819-375bb64f44d4.htm" />
   <HelpKINode Title="GetOpenCheckin property" Url="html/4e34bd7d-95b4-4355-d36a-a384df024bc5.htm" />
@@ -1848,20 +1814,6 @@
     <HelpKINode Title="properties" Url="html/c8a5365f-1e2c-6d3d-200f-560cbaf3154b.htm" />
   </HelpKINode>
   <HelpKINode Title="Local.Data property" Url="html/88aef5df-e244-fffa-8b6d-99383ee849cc.htm" />
-  <HelpKINode Title="LocalDataIsThreadLocal method" Url="html/99f3933b-c3ed-1592-1432-4bafe44af762.htm" />
-  <HelpKINode Title="LocalDataTests class" Url="html/e427fe13-39c9-46cf-8d91-76b73088f7a4.htm" />
-  <HelpKINode Title="LocalDataTests class" Url="html/f2139cd0-aaef-e65a-f5cb-73918c3d651f.htm" />
-  <HelpKINode Title="LocalDataTests class">
-    <HelpKINode Title="about LocalDataTests class" Url="html/e427fe13-39c9-46cf-8d91-76b73088f7a4.htm" />
-    <HelpKINode Title="all members" Url="html/f2139cd0-aaef-e65a-f5cb-73918c3d651f.htm" />
-    <HelpKINode Title="constructor" Url="html/d24bca77-f739-0ce1-082b-acaf3ef022fa.htm" />
-    <HelpKINode Title="methods" Url="html/2c0220ae-68dc-64e0-49c8-91ee9dea2a00.htm" />
-  </HelpKINode>
-  <HelpKINode Title="LocalDataTests.CanClearLocalData method" Url="html/7686b93e-b77b-51ff-1c4f-dad1a8504535.htm" />
-  <HelpKINode Title="LocalDataTests.CanStoreValuesInLocalData method" Url="html/f1c9d431-69e0-236b-d5d1-8c4e8493710a.htm" />
-  <HelpKINode Title="LocalDataTests.LocalDataIsThreadLocal method" Url="html/99f3933b-c3ed-1592-1432-4bafe44af762.htm" />
-  <HelpKINode Title="LocalDataTests.LocalDataTests constructor" Url="html/d24bca77-f739-0ce1-082b-acaf3ef022fa.htm" />
-  <HelpKINode Title="LocalDataTests.SetupContext method" Url="html/eba25f7f-725a-7428-a047-a235ba67d0ed.htm" />
   <HelpKINode Title="Location class" Url="html/0e5df2ab-03f3-dc7c-6a4d-6b22e917ba06.htm" />
   <HelpKINode Title="Location class" Url="html/432b69c5-c925-295a-b381-32c41c931ae7.htm" />
   <HelpKINode Title="Location class">
@@ -2043,26 +1995,6 @@
   <HelpKINode Title="MvcApplication.RegisterGlobalFilters method" Url="html/5874d8a5-2fcc-e149-6b77-80cd5f31fad4.htm" />
   <HelpKINode Title="MvcApplication.RegisterRoutes method" Url="html/3ab9de9f-6e7c-d229-b3f1-21f9efdb4447.htm" />
   <HelpKINode Title="Myanmar enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
-  <HelpKINode Title="MyFakeLogger class" Url="html/25c7d792-99a4-da07-0732-b822d0f3583a.htm" />
-  <HelpKINode Title="MyFakeLogger class" Url="html/81bb7465-2b0d-dbb8-e638-408748bebeaa.htm" />
-  <HelpKINode Title="MyFakeLogger class">
-    <HelpKINode Title="about MyFakeLogger class" Url="html/25c7d792-99a4-da07-0732-b822d0f3583a.htm" />
-    <HelpKINode Title="all members" Url="html/81bb7465-2b0d-dbb8-e638-408748bebeaa.htm" />
-    <HelpKINode Title="constructor" Url="html/d36846c5-8dfc-8bcb-87a7-c08947eebdd5.htm" />
-    <HelpKINode Title="methods" Url="html/91bb312f-d0cd-8643-805d-92e737cf058f.htm" />
-  </HelpKINode>
-  <HelpKINode Title="MyFakeLogger.MyFakeLogger constructor" Url="html/d36846c5-8dfc-8bcb-87a7-c08947eebdd5.htm" />
-  <HelpKINode Title="MyFakeLogManager class" Url="html/7d1ba295-756f-8d12-668a-0c1394d93369.htm" />
-  <HelpKINode Title="MyFakeLogManager class" Url="html/d46ccd53-28be-222c-0fac-9f9c94730456.htm" />
-  <HelpKINode Title="MyFakeLogManager class">
-    <HelpKINode Title="about MyFakeLogManager class" Url="html/7d1ba295-756f-8d12-668a-0c1394d93369.htm" />
-    <HelpKINode Title="all members" Url="html/d46ccd53-28be-222c-0fac-9f9c94730456.htm" />
-    <HelpKINode Title="constructor" Url="html/1cb2df77-a22d-1d9d-ea62-0f0e89a063dc.htm" />
-    <HelpKINode Title="methods" Url="html/982629fd-14ba-ffb9-0ff6-aec7ae961450.htm" />
-  </HelpKINode>
-  <HelpKINode Title="MyFakeLogManager.GetCurrentClassLogger method" Url="html/fe17e398-0042-8a29-869e-71fa335027cc.htm" />
-  <HelpKINode Title="MyFakeLogManager.GetLogger method" Url="html/d6d725e0-5add-135d-a2df-dfdfa4c6cf86.htm" />
-  <HelpKINode Title="MyFakeLogManager.MyFakeLogManager constructor" Url="html/1cb2df77-a22d-1d9d-ea62-0f0e89a063dc.htm" />
   <HelpKINode Title="MySqlUtilities class" Url="html/9b291d5b-23cd-4bc6-5362-ab237b8145eb.htm" />
   <HelpKINode Title="MySqlUtilities class" Url="html/d4b5670c-e3ed-fae0-375e-3eb49ccbb202.htm" />
   <HelpKINode Title="MySqlUtilities class">
@@ -2072,17 +2004,6 @@
   </HelpKINode>
   <HelpKINode Title="MySqlUtilities.Backup method" Url="html/993f358e-e1ee-b943-cc35-73133360b46e.htm" />
   <HelpKINode Title="MySqlUtilities.Restore method" Url="html/3f9e073d-9bf3-b37f-4cf1-34c351814c12.htm" />
-  <HelpKINode Title="MySqlUtilitiesTests class" Url="html/69ac622b-508f-7cd4-9d92-7e40ea5298b1.htm" />
-  <HelpKINode Title="MySqlUtilitiesTests class" Url="html/fb0314c5-a131-6b8f-474f-75ec9be05dc4.htm" />
-  <HelpKINode Title="MySqlUtilitiesTests class">
-    <HelpKINode Title="about MySqlUtilitiesTests class" Url="html/fb0314c5-a131-6b8f-474f-75ec9be05dc4.htm" />
-    <HelpKINode Title="all members" Url="html/69ac622b-508f-7cd4-9d92-7e40ea5298b1.htm" />
-    <HelpKINode Title="constructor" Url="html/c4b7ef16-21e6-a01c-5ac0-2a75da5a6067.htm" />
-    <HelpKINode Title="methods" Url="html/9aac0db1-bd34-97a5-839a-cec3aed51eef.htm" />
-  </HelpKINode>
-  <HelpKINode Title="MySqlUtilitiesTests.CanBackupDatabase method" Url="html/bea28892-e73f-c744-d653-7f1295c092b4.htm" />
-  <HelpKINode Title="MySqlUtilitiesTests.CanRestoreDatabase method" Url="html/02c36ff3-ba8c-c35a-dd6f-688439947e44.htm" />
-  <HelpKINode Title="MySqlUtilitiesTests.MySqlUtilitiesTests constructor" Url="html/c4b7ef16-21e6-a01c-5ac0-2a75da5a6067.htm" />
   <HelpKINode Title="Name property" Url="html/273ea1ed-b20e-3c9b-4db9-caeb95c17feb.htm" />
   <HelpKINode Title="Name property" Url="html/2fc6138b-3f18-073a-c1be-1122aa26a37c.htm" />
   <HelpKINode Title="Name property" Url="html/6688daab-dfa7-35db-93d4-b526ca2cf43b.htm" />
@@ -2100,16 +2021,6 @@
   <HelpKINode Title="NewZealand enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="NGSuctionAmount property" Url="html/9247bd38-902b-aef6-d0a9-9d438675f4de.htm" />
   <HelpKINode Title="NGSuctionColor property" Url="html/be8c0100-d6f5-3276-129b-70824f4a7dd7.htm" />
-  <HelpKINode Title="NHibernateMappingTests class" Url="html/5feff3c0-4204-baff-a2a9-e7a962fbc81c.htm" />
-  <HelpKINode Title="NHibernateMappingTests class" Url="html/ea7fe4e6-f0b8-18c1-d1e0-0b4914fe21e1.htm" />
-  <HelpKINode Title="NHibernateMappingTests class">
-    <HelpKINode Title="about NHibernateMappingTests class" Url="html/ea7fe4e6-f0b8-18c1-d1e0-0b4914fe21e1.htm" />
-    <HelpKINode Title="all members" Url="html/5feff3c0-4204-baff-a2a9-e7a962fbc81c.htm" />
-    <HelpKINode Title="constructor" Url="html/734c9a25-f79b-1175-b97c-6edeb1cf5811.htm" />
-    <HelpKINode Title="methods" Url="html/903a66e1-0021-df7d-b894-61e6e8695f83.htm" />
-  </HelpKINode>
-  <HelpKINode Title="NHibernateMappingTests.NHibernateMappingTests constructor" Url="html/734c9a25-f79b-1175-b97c-6edeb1cf5811.htm" />
-  <HelpKINode Title="NHibernateMappingTests.SetupTests method" Url="html/79b94578-ec51-dde9-cf3c-473dc3a54ae9.htm" />
   <HelpKINode Title="Nicaragua enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="Niger enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="Nigeria enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
@@ -2321,25 +2232,6 @@
   <HelpKINode Title="OpenEhs.Data.SurgeryStaffRepository class" Url="html/4b405aa3-dc39-01d6-1bd9-d63746f3465e.htm" />
   <HelpKINode Title="OpenEhs.Data.TemplateRepository class" Url="html/7c6c4809-5c39-821a-bae5-45731af83072.htm" />
   <HelpKINode Title="OpenEhs.Data.TemplateRepository class" Url="html/bac37bdb-f964-b5c6-a2bd-96c62437fb75.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests namespace" Url="html/3e3aff6b-ede5-358f-1af8-16d2a297ed0c.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.MySqlUtilitiesTests class" Url="html/69ac622b-508f-7cd4-9d92-7e40ea5298b1.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.MySqlUtilitiesTests class" Url="html/fb0314c5-a131-6b8f-474f-75ec9be05dc4.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.NHibernateMappingTests class" Url="html/5feff3c0-4204-baff-a2a9-e7a962fbc81c.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.NHibernateMappingTests class" Url="html/ea7fe4e6-f0b8-18c1-d1e0-0b4914fe21e1.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories namespace" Url="html/63aa69af-df56-9ee4-9f4d-a7ac3b68bd1e.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories.CategoryRepositoryTests class" Url="html/185eae28-78e8-1310-6f4c-3b12a971f9fa.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories.CategoryRepositoryTests class" Url="html/6ba885fb-0907-4b9e-8bbe-2c04fd48a48c.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories.PatientRepositoryTest class" Url="html/83d6fd59-ce3b-c9ae-7874-5b418207a647.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories.PatientRepositoryTest class" Url="html/88ac5332-6a30-96e4-2448-7ac69987b129.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories.UserRepositoryTests class" Url="html/2902b61d-6c75-bf3e-d04e-1ae0138b9dc2.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Repositories.UserRepositoryTests class" Url="html/d121b1cc-13f4-1144-dbbb-9e7fb1113d8e.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work namespace" Url="html/d49d473d-d79e-3983-e03b-d3ac52a1e9d6.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work.LocalDataTests class" Url="html/e427fe13-39c9-46cf-8d91-76b73088f7a4.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work.LocalDataTests class" Url="html/f2139cd0-aaef-e65a-f5cb-73918c3d651f.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work.UnitOfWorkFactoryTests class" Url="html/0cbab0ec-f727-12f3-775c-cf62285d751c.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work.UnitOfWorkFactoryTests class" Url="html/eb4ca0ef-95cf-e9c5-7aef-a9856c224af3.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work.UnitOfWorkTests class" Url="html/094cbc27-3ac3-86b3-19f1-552bfeb99abb.htm" />
-  <HelpKINode Title="OpenEhs.Data.Tests.Unit_of_Work.UnitOfWorkTests class" Url="html/9eb9a91c-5814-bd36-05e8-4377af08047e.htm" />
   <HelpKINode Title="OpenEhs.Data.UnitOfWork class" Url="html/1d59d956-b89d-9045-7198-ebcb3395a881.htm" />
   <HelpKINode Title="OpenEhs.Data.UnitOfWork class" Url="html/77a182d2-712c-2cda-b844-691278579fa5.htm" />
   <HelpKINode Title="OpenEhs.Data.UnitOfWorkFactory class" Url="html/1ffaddcf-fd36-185f-1113-3b60cb4a820e.htm" />
@@ -2434,11 +2326,6 @@
   <HelpKINode Title="OpenEhs.Domain.Vitals class" Url="html/da95f774-ce60-7c8b-3359-285a0f39d9ed.htm" />
   <HelpKINode Title="OpenEhs.Domain.VitalsType enumeration" Url="html/97def356-9d00-1a68-214e-94f69a2320e6.htm" />
   <HelpKINode Title="OpenEhs.Infrastructure.Logging namespace" Url="html/729396e2-3481-a5d8-bdf0-2b71fa587c9a.htm" />
-  <HelpKINode Title="OpenEhs.Infrastructure.Logging.Fakes namespace" Url="html/a35ac7b4-6594-5450-9a1c-bc7150115b02.htm" />
-  <HelpKINode Title="OpenEhs.Infrastructure.Logging.Fakes.MyFakeLogger class" Url="html/25c7d792-99a4-da07-0732-b822d0f3583a.htm" />
-  <HelpKINode Title="OpenEhs.Infrastructure.Logging.Fakes.MyFakeLogger class" Url="html/81bb7465-2b0d-dbb8-e638-408748bebeaa.htm" />
-  <HelpKINode Title="OpenEhs.Infrastructure.Logging.Fakes.MyFakeLogManager class" Url="html/7d1ba295-756f-8d12-668a-0c1394d93369.htm" />
-  <HelpKINode Title="OpenEhs.Infrastructure.Logging.Fakes.MyFakeLogManager class" Url="html/d46ccd53-28be-222c-0fac-9f9c94730456.htm" />
   <HelpKINode Title="OpenEhs.Infrastructure.Logging.ILogger interface" Url="html/c3d11597-b10d-b927-3096-dd29d6685c02.htm" />
   <HelpKINode Title="OpenEhs.Infrastructure.Logging.ILogManager interface" Url="html/22e30217-43c6-6943-52a6-ee0332e75d4f.htm" />
   <HelpKINode Title="OpenEhs.Infrastructure.Logging.ILogManager interface" Url="html/9aad37eb-c719-a455-c194-c19a1e514a14.htm" />
@@ -3005,17 +2892,6 @@
   <HelpKINode Title="PatientRepository.GetTop25 method" Url="html/034efd0c-2b8b-2187-2992-2a0cd2a1dfa2.htm" />
   <HelpKINode Title="PatientRepository.PatientRepository constructor" Url="html/c6f7b75b-5b12-86c4-e1a8-990c268913cb.htm" />
   <HelpKINode Title="PatientRepository.Remove method" Url="html/82582209-8be1-92fd-78a5-0f2df979524f.htm" />
-  <HelpKINode Title="PatientRepositoryTest class" Url="html/83d6fd59-ce3b-c9ae-7874-5b418207a647.htm" />
-  <HelpKINode Title="PatientRepositoryTest class" Url="html/88ac5332-6a30-96e4-2448-7ac69987b129.htm" />
-  <HelpKINode Title="PatientRepositoryTest class">
-    <HelpKINode Title="about PatientRepositoryTest class" Url="html/83d6fd59-ce3b-c9ae-7874-5b418207a647.htm" />
-    <HelpKINode Title="all members" Url="html/88ac5332-6a30-96e4-2448-7ac69987b129.htm" />
-    <HelpKINode Title="constructor" Url="html/dd4a2f45-cc29-58bb-afa3-bc284ab7a86b.htm" />
-    <HelpKINode Title="methods" Url="html/662484d1-f3d8-1ed5-21cd-c51a48e34d5e.htm" />
-  </HelpKINode>
-  <HelpKINode Title="PatientRepositoryTest.CanAddNewPatient method" Url="html/d04f5935-266e-9ef5-fb57-0c849fd8bc75.htm" />
-  <HelpKINode Title="PatientRepositoryTest.CanGetAllPatients method" Url="html/f32ac80f-37db-6349-61c6-096f00288f75.htm" />
-  <HelpKINode Title="PatientRepositoryTest.PatientRepositoryTest constructor" Url="html/dd4a2f45-cc29-58bb-afa3-bc284ab7a86b.htm" />
   <HelpKINode Title="PatientResources method" Url="html/947edc6a-39a3-f879-eb0d-7993a5d22247.htm" />
   <HelpKINode Title="Patients property" Url="html/18e81dda-3d9b-087a-9292-4f90205c4df1.htm" />
   <HelpKINode Title="Patients property" Url="html/3d116554-ec98-69c2-8149-df4edcc736ae.htm" />
@@ -3623,11 +3499,6 @@
   <HelpKINode Title="SessionFactory property" Url="html/2ff03fa4-e262-fe8f-c44e-26026e79a4de.htm" />
   <HelpKINode Title="SessionFactory property" Url="html/8f40d037-00fd-3c0b-ccf9-e8f74173ad86.htm" />
   <HelpKINode Title="SetPropertyValues method" Url="html/06b89459-8a9a-90cb-21dc-4ac5945332ca.htm" />
-  <HelpKINode Title="Setup method" Url="html/a2341f60-4e5f-1f77-5cb7-7a33d9082aaa.htm" />
-  <HelpKINode Title="Setup method" Url="html/c5053a1f-99eb-ec0c-b78a-20dcb9bf4200.htm" />
-  <HelpKINode Title="SetupContext method" Url="html/49273f6b-938e-848e-e073-6ec68ea2ab2e.htm" />
-  <HelpKINode Title="SetupContext method" Url="html/eba25f7f-725a-7428-a047-a235ba67d0ed.htm" />
-  <HelpKINode Title="SetupTests method" Url="html/79b94578-ec51-dde9-cf3c-473dc3a54ae9.htm" />
   <HelpKINode Title="Seychelles enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="SierraLeone enumeration member" Url="html/35dd0da5-9d67-6445-ffa4-d5fef35eb24e.htm" />
   <HelpKINode Title="SignIn method" Url="html/ac3d54bc-4375-e559-8fc7-40c75c9aea9a.htm" />
@@ -3865,20 +3736,6 @@
   <HelpKINode Title="UnitOfWorkFactory.CurrentSession property" Url="html/dbc3c1be-4580-8cb7-7f43-16ff9ac31d61.htm" />
   <HelpKINode Title="UnitOfWorkFactory.DisposeUnitOfWork method" Url="html/16ffd233-709c-f914-6678-69d499053aae.htm" />
   <HelpKINode Title="UnitOfWorkFactory.SessionFactory property" Url="html/2ff03fa4-e262-fe8f-c44e-26026e79a4de.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests class" Url="html/0cbab0ec-f727-12f3-775c-cf62285d751c.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests class" Url="html/eb4ca0ef-95cf-e9c5-7aef-a9856c224af3.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests class">
-    <HelpKINode Title="about UnitOfWorkFactoryTests class" Url="html/eb4ca0ef-95cf-e9c5-7aef-a9856c224af3.htm" />
-    <HelpKINode Title="all members" Url="html/0cbab0ec-f727-12f3-775c-cf62285d751c.htm" />
-    <HelpKINode Title="constructor" Url="html/afeaf58c-5c4e-326c-b1ce-d92d0a5793c9.htm" />
-    <HelpKINode Title="methods" Url="html/5d930d3e-09e8-0d07-e757-c83d882f09af.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UnitOfWorkFactoryTests.AccessingCurrentSessionWhenNoSessionOpenThrows method" Url="html/9366dc5f-2663-752b-87f8-529bee2c4459.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests.CanConfigureNHibernate method" Url="html/ec0bb557-aa37-6920-ce27-e84be7291795.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests.CanCreateAndAccessSessionFactory method" Url="html/35e0e6c2-2802-afcc-4da1-e1d336f918c5.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests.CanCreateUnitOfWork method" Url="html/493a550a-1c5f-e77c-1173-1e36232c7734.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests.SetupContext method" Url="html/49273f6b-938e-848e-e073-6ec68ea2ab2e.htm" />
-  <HelpKINode Title="UnitOfWorkFactoryTests.UnitOfWorkFactoryTests constructor" Url="html/afeaf58c-5c4e-326c-b1ce-d92d0a5793c9.htm" />
   <HelpKINode Title="UnitOfWorkImplementor class" Url="html/16780ab5-826d-d51d-c19f-d05251bdbc29.htm" />
   <HelpKINode Title="UnitOfWorkImplementor class" Url="html/a4692703-ada5-9a98-99f3-8141fd4a2453.htm" />
   <HelpKINode Title="UnitOfWorkImplementor class">
@@ -3897,17 +3754,6 @@
   <HelpKINode Title="UnitOfWorkImplementor.Session property" Url="html/42b052b1-88b3-d86f-0a20-67dd712d8d1d.htm" />
   <HelpKINode Title="UnitOfWorkImplementor.TransactionalFlush method" Url="html/65b7e18a-6d60-e3ee-dd5d-ef91be09cbe5.htm" />
   <HelpKINode Title="UnitOfWorkImplementor.UnitOfWorkImplementor constructor" Url="html/ec9f0c4a-eec8-684d-6041-1d2fa4a6d9b9.htm" />
-  <HelpKINode Title="UnitOfWorkTests class" Url="html/094cbc27-3ac3-86b3-19f1-552bfeb99abb.htm" />
-  <HelpKINode Title="UnitOfWorkTests class" Url="html/9eb9a91c-5814-bd36-05e8-4377af08047e.htm" />
-  <HelpKINode Title="UnitOfWorkTests class">
-    <HelpKINode Title="about UnitOfWorkTests class" Url="html/094cbc27-3ac3-86b3-19f1-552bfeb99abb.htm" />
-    <HelpKINode Title="all members" Url="html/9eb9a91c-5814-bd36-05e8-4377af08047e.htm" />
-    <HelpKINode Title="constructor" Url="html/78412d6e-30ba-f72f-904e-b8df7b70f192.htm" />
-    <HelpKINode Title="methods" Url="html/587c0327-8429-a08d-dec5-ad6987d6c767.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UnitOfWorkTests.CanStartUnitOfWork method" Url="html/ca90764f-9a48-d195-4c9a-51bf1699b837.htm" />
-  <HelpKINode Title="UnitOfWorkTests.Setup method" Url="html/c5053a1f-99eb-ec0c-b78a-20dcb9bf4200.htm" />
-  <HelpKINode Title="UnitOfWorkTests.UnitOfWorkTests constructor" Url="html/78412d6e-30ba-f72f-904e-b8df7b70f192.htm" />
   <HelpKINode Title="University enumeration member" Url="html/b3767f7c-1437-065f-4389-bc1bbea77bce.htm" />
   <HelpKINode Title="UniversityGraduate enumeration member" Url="html/b3767f7c-1437-065f-4389-bc1bbea77bce.htm" />
   <HelpKINode Title="Unknown enumeration member" Url="html/7aaef721-8562-2da4-79a1-36e6a8f74ec1.htm" />
@@ -4028,9 +3874,9 @@
   <HelpKINode Title="UserDetailsViewModel.Username property" Url="html/34973263-54bc-5b07-d753-ed93c652d8fe.htm" />
   <HelpKINode Title="UserId property" Url="html/935b0427-3823-7d54-7e49-caba83cae6c1.htm" />
   <HelpKINode Title="Username property" Url="html/34973263-54bc-5b07-d753-ed93c652d8fe.htm" />
-  <HelpKINode Title="UserName property" Url="html/b8f25c9f-3e9b-c5f0-3c70-db4111a2c257.htm" />
   <HelpKINode Title="Username property" Url="html/77483207-f4a9-ad3a-ccb4-07395f1cefa1.htm" />
   <HelpKINode Title="Username property" Url="html/f8a4ca41-e8b8-e8c8-a7f3-f45a5b383516.htm" />
+  <HelpKINode Title="UserName property" Url="html/b8f25c9f-3e9b-c5f0-3c70-db4111a2c257.htm" />
   <HelpKINode Title="UsernameExists method" Url="html/ae79544f-fd4a-c0d0-0583-49cd7f3c59f7.htm" />
   <HelpKINode Title="UserReport method" Url="html/0dedd7b5-3986-9051-e63d-cab9e7f6293f.htm" />
   <HelpKINode Title="UserReportViewModel class" Url="html/635663e1-e5ae-70cf-df50-1cf227be7e9e.htm" />
@@ -4064,18 +3910,6 @@
   <HelpKINode Title="UserRepository.GetPaged method" Url="html/f90db0c1-6ab5-f849-6fad-fead614eb9f2.htm" />
   <HelpKINode Title="UserRepository.Remove method" Url="html/517422e2-05b4-4796-3713-649ce56a0364.htm" />
   <HelpKINode Title="UserRepository.UserRepository constructor" Url="html/d1c9fc13-134c-2d11-a6f7-3c692d92720e.htm" />
-  <HelpKINode Title="UserRepositoryTests class" Url="html/2902b61d-6c75-bf3e-d04e-1ae0138b9dc2.htm" />
-  <HelpKINode Title="UserRepositoryTests class" Url="html/d121b1cc-13f4-1144-dbbb-9e7fb1113d8e.htm" />
-  <HelpKINode Title="UserRepositoryTests class">
-    <HelpKINode Title="about UserRepositoryTests class" Url="html/2902b61d-6c75-bf3e-d04e-1ae0138b9dc2.htm" />
-    <HelpKINode Title="all members" Url="html/d121b1cc-13f4-1144-dbbb-9e7fb1113d8e.htm" />
-    <HelpKINode Title="constructor" Url="html/1920b92f-148a-af66-9a7f-65cb6d8c8116.htm" />
-    <HelpKINode Title="methods" Url="html/db009bc4-8cc9-8efd-a0db-8112d5b42bf8.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UserRepositoryTests.CanAddUser method" Url="html/8b24e329-039b-65ff-6600-dc969d8610a8.htm" />
-  <HelpKINode Title="UserRepositoryTests.CanDeleteUser method" Url="html/e05ea348-63ea-cf71-7ed6-ac9cb19b72c4.htm" />
-  <HelpKINode Title="UserRepositoryTests.Setup method" Url="html/a2341f60-4e5f-1f77-5cb7-7a33d9082aaa.htm" />
-  <HelpKINode Title="UserRepositoryTests.UserRepositoryTests constructor" Url="html/1920b92f-148a-af66-9a7f-65cb6d8c8116.htm" />
   <HelpKINode Title="Users property" Url="html/1fc419f5-1cea-544a-eced-0471e253f709.htm" />
   <HelpKINode Title="Users property" Url="html/737e33a5-15cf-8bd3-5cca-f8c96d17e332.htm" />
   <HelpKINode Title="Users property" Url="html/7a7d951d-1034-76cc-1fe4-cfe0a9a1fa34.htm" />

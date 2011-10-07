@@ -407,6 +407,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Gets all users
+        /// </summary>
         public IList<User> Users
         {
             get
@@ -416,6 +419,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Gets all current medications that aren't expired
+        /// </summary>
         public IList<PatientMedication> CurrentMedications
         {
             get
@@ -428,6 +434,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Gets all medications that are expired
+        /// </summary>
         public IList<PatientMedication> PastMedications
         {
             get
@@ -440,6 +449,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all immunizations
+        /// </summary>
         public IList<PatientImmunization> TenImmunization
         {
             get
@@ -451,6 +463,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Gets all immunizations that have been administered ten years or later from now
+        /// </summary>
         public IList<PatientImmunization> PriorImmunization
         {
             get
@@ -463,6 +478,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Gets all immunizations that have been administered over the past ten years
+        /// </summary>
         public IList<PatientImmunization> TenYearImmunization
         {
             get
@@ -475,6 +493,9 @@ namespace OpenEhs.Web.Models
             }
         }
          
+        /// <summary>
+        /// Gets an open checkin
+        /// </summary>
         public PatientCheckIn GetOpenCheckin
         {
             get
@@ -494,6 +515,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Allows you to search the patient check ins
+        /// </summary>
         public IList<PatientCheckIn> SearchCheckIns
         {
             get
@@ -505,6 +529,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Allows you to search the patient check ins and gets the top patient check in
+        /// </summary>
         public IList<PatientCheckIn> SearchCheckInsTop1
         {
             get
@@ -517,6 +544,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all locations in the hospital
+        /// </summary>
         public IList<Location> GetLocations
         {
             get
@@ -526,6 +556,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all users that can be selected
+        /// </summary>
         public IList<User> GetUser
         {
             get
@@ -535,6 +568,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all immunizations that can be administered
+        /// </summary>
         public IList<Immunization> AllImmunizations
         {
             get
@@ -544,6 +580,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all problems that a patient can have
+        /// </summary>
         public IList<Problem> AllProblems
         {
             get
@@ -553,6 +592,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all allergies that can be allergic to
+        /// </summary>
         public IList<Allergy> AllAllergies
         {
             get
@@ -562,6 +604,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all medications that can be selected
+        /// </summary>
         public IList<Medication> AllMedications
         {
             get
@@ -571,6 +616,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active users that have the staff type of physician
+        /// </summary>
         public IList<User> GetActivePhysicians
         {
             get
@@ -580,6 +628,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all the invoices for the current patient
+        /// </summary>
         public IList<Invoice> Invoices
         {
             get
@@ -589,6 +640,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// All the products that can be selected
+        /// </summary>
         [DisplayName("Products")]
         public IList<Product> Products
         {
@@ -598,6 +652,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// All the services that can be selected
+        /// </summary>
         [DisplayName("Services")]
         public IList<Service> Services
         {
@@ -607,6 +664,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list for all the different countries
+        /// </summary>
         public SelectList Countries
         {
             get
@@ -624,11 +684,19 @@ namespace OpenEhs.Web.Models
 
         #region Patient Methods
 
+        /// <summary>
+        /// Add encounter to a patient check in
+        /// </summary>
+        /// <param name="checkIn">check in to add the encounter to</param>
         public void AddEncounter(PatientCheckIn checkIn)
         {
             PatientCheckIns.Add(checkIn);
         }
 
+        /// <summary>
+        /// Remove encounter from a patient check in
+        /// </summary>
+        /// <param name="checkIn">check in to remove the encounter from</param>
         public void RemoveEncounter(PatientCheckIn checkIn)
         {
             PatientCheckIns.Remove(checkIn);
@@ -737,6 +805,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list for the different types of medication administration types
+        /// </summary>
         public SelectList MedicationRouteOfAdministrationType
         {
             get
@@ -748,6 +819,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list of all the different tribes
+        /// </summary>
         public SelectList Tribes
         {
             get
@@ -759,6 +833,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list of all the different races
+        /// </summary>
         public SelectList Races
         {
             get
@@ -770,6 +847,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list of all the different education levels
+        /// </summary>
         public SelectList Educations
         {
             get
@@ -781,6 +861,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list of all the different marital statuses
+        /// </summary>
         public SelectList MaritalStatuses
         {
             get
@@ -792,6 +875,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Select list of all the different genders
+        /// </summary>
         public SelectList Genders
         {
             get

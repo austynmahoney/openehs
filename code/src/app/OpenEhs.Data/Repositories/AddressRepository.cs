@@ -13,6 +13,9 @@ namespace OpenEhs.Data
     /// </summary>
     public class AddressRepository : IAddressRepository
     {
+        /// <summary>
+        /// the current session from the unit of work
+        /// </summary>
         private ISession Session
         {
             get
@@ -20,10 +23,21 @@ namespace OpenEhs.Data
                 return UnitOfWork.CurrentSession;
             }
         }
+
+        /// <summary>
+        /// Get a Address with a given id.
+        /// </summary>
+        /// <param name="id">The Id of the Address to be retrieved.</param>
+        /// <returns></returns>
         public Address Get(int id)
         {
             return Session.Get<Address>(id);
         }
+
+        /// <summary>
+        /// Gets all the Addresses in the Repository.
+        /// </summary>
+        /// <returns>An IList containing all Addresses in the Repository.</returns>
         public IList<Address> GetAll()
         {
             ICriteria criteria = Session.CreateCriteria<Address>();
@@ -35,10 +49,19 @@ namespace OpenEhs.Data
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Adds a Address to the Repository.
+        /// </summary>
+        /// <param name="entity">The Address to add to the Repository.</param>
         public void Add(Address entity)
         {
             Session.Save(entity);
         }
+
+        /// <summary>
+        /// Removes a Address from the Repository.
+        /// </summary>
+        /// <param name="entity">The Address to remove from the Repository.</param>
         public void Remove(Address entity)
         {
             Session.Delete(entity);

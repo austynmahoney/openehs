@@ -24,8 +24,19 @@
     </DocumentationSources>
     <HelpTitle>OpenEHS Documentation</HelpTitle>
     <NamespaceSummaries>
-      <NamespaceSummaryItem name="OpenEhs.Data" isDocumented="True" xmlns="">This namespace handles the interaction between the application and the database through repositories, nhibernate, and the unit of work pattern for transaction handling.</NamespaceSummaryItem>
-    </NamespaceSummaries>
+      <NamespaceSummaryItem name="OpenEhs.Data" isDocumented="True">This namespace handles the interaction between the application and the database through repositories, nhibernate, and the unit of work pattern for transaction handling.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Data.Common" isDocumented="True">Data common namespace contains classes that are used throughout the data namespace</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Data.Tests" isDocumented="False" />
+<NamespaceSummaryItem name="OpenEhs.Data.Tests.Repositories" isDocumented="False" />
+<NamespaceSummaryItem name="OpenEhs.Data.Tests.Unit_of_Work" isDocumented="False" />
+<NamespaceSummaryItem name="OpenEhs.Domain" isDocumented="True">Domain namespace contains the business objects that are used at application level</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Domain.Exceptions" isDocumented="True">Exception namespace contains exceptions that are thrown when binding to the domain business objects</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Infrastructure.Logging" isDocumented="True">Logging namespace handles logging code when there are exceptions thrown</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Infrastructure.Logging.Fakes" isDocumented="False" />
+<NamespaceSummaryItem name="OpenEhs.Web" isDocumented="True">Web namespace contains the core web project files</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Web.Controllers" isDocumented="True">Web Controllers namespace contains all the controllers that control the showing and changing of view models</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Web.Helpers" isDocumented="True">Web helpers namespace contains classes that help the web project</NamespaceSummaryItem>
+<NamespaceSummaryItem name="OpenEhs.Web.Models" isDocumented="True">Web Models namespace contains all the view models for the pages that contain the data used on each page</NamespaceSummaryItem></NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in
        order for Visual Studio to perform the build.  The others are optional

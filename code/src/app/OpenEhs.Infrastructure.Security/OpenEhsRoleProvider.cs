@@ -8,6 +8,9 @@ using OpenEhs.Domain;
 
 namespace OpenEhs.Infrastructure.Security
 {
+    /// <summary>
+    /// OpenEHS Role Provider enforces the security of this project
+    /// </summary>
     public class OpenEhsRoleProvider : RoleProvider
     {
         #region Fields
@@ -46,6 +49,12 @@ namespace OpenEhs.Infrastructure.Security
 
         #region Methods
 
+        /// <summary>
+        /// Check if a given username is in a given role
+        /// </summary>
+        /// <param name="username">username to check</param>
+        /// <param name="roleName">role to check if username is in</param>
+        /// <returns></returns>
         public override bool IsUserInRole(string username, string roleName)
         {
             var role = _roleRepository.Get(roleName);
@@ -56,6 +65,11 @@ namespace OpenEhs.Infrastructure.Security
             return role.Users.Any(user => user.Username == username);
         }
 
+        /// <summary>
+        /// Get array of roles that a user is in with a given username
+        /// </summary>
+        /// <param name="username">username to get the roles for</param>
+        /// <returns>array of roles</returns>
         public override string[] GetRolesForUser(string username)
         {
             var userRepository = new UserRepository();
@@ -66,12 +80,22 @@ namespace OpenEhs.Infrastructure.Security
             return roles.ToArray();
         }
 
+        /// <summary>
+        /// Create a new role
+        /// </summary>
+        /// <param name="roleName">name of the role</param>
         public override void CreateRole(string roleName)
         {
             var role = new Role {Name = roleName, Description = String.Empty, DateCreated = DateTime.Now};
             _roleRepository.Add(role);
         }
 
+        /// <summary>
+        /// Delete a role
+        /// </summary>
+        /// <param name="roleName">name of role to delete</param>
+        /// <param name="throwOnPopulatedRole">whether or not to throw an exception if the role to delete has users with that role</param>
+        /// <returns></returns>
         public override bool DeleteRole(string roleName, bool throwOnPopulatedRole)
         {
             var role = _roleRepository.Get(roleName);
@@ -88,11 +112,21 @@ namespace OpenEhs.Infrastructure.Security
             return true;
         }
 
+        /// <summary>
+        /// Check if role exists
+        /// </summary>
+        /// <param name="roleName">role to check</param>
+        /// <returns></returns>
         public override bool RoleExists(string roleName)
         {
             return _roleRepository.Get(roleName) != null;
         }
 
+        /// <summary>
+        /// Add given roles to the users with the given usernames
+        /// </summary>
+        /// <param name="usernames">users to get the roles</param>
+        /// <param name="roleNames">roles to give to the users</param>
         public override void AddUsersToRoles(string[] usernames, string[] roleNames)
         {
             var roles = FillRoles(roleNames);
@@ -104,7 +138,11 @@ namespace OpenEhs.Infrastructure.Security
             }
         }
 
-
+        /// <summary>
+        /// Remove given roles from the users with the given usernames
+        /// </summary>
+        /// <param name="usernames">users to remove the roles from</param>
+        /// <param name="roleNames">roles to remove from the users</param>
         public override void RemoveUsersFromRoles(string[] usernames, string[] roleNames)
         {
             var users = FillUsers(usernames);
@@ -116,6 +154,11 @@ namespace OpenEhs.Infrastructure.Security
             }
         }
 
+        /// <summary>
+        /// Get users that are in the role passed in
+        /// </summary>
+        /// <param name="roleName">role to check</param>
+        /// <returns></returns>
         public override string[] GetUsersInRole(string roleName)
         {
             var role = _roleRepository.Get(roleName);
@@ -123,6 +166,10 @@ namespace OpenEhs.Infrastructure.Security
             return role.Users.Select(user => user.Username).ToList().ToArray();
         }
 
+        /// <summary>
+        /// Get all roles that exist
+        /// </summary>
+        /// <returns></returns>
         public override string[] GetAllRoles()
         {
             var roles = _roleRepository.GetAll();
@@ -139,6 +186,11 @@ namespace OpenEhs.Infrastructure.Security
 
         #region Private Methods
 
+        /// <summary>
+        /// Create roles, if they don't already exist
+        /// </summary>
+        /// <param name="roleNames">roles to create</param>
+        /// <returns></returns>
         private IList<Role> FillRoles(string[] roleNames)
         {
             var roles = new List<Role>();
@@ -154,6 +206,11 @@ namespace OpenEhs.Infrastructure.Security
             return roles;
         }
 
+        /// <summary>
+        /// Create users, if they don't already exist
+        /// </summary>
+        /// <param name="usernames">usernames to create</param>
+        /// <returns></returns>
         private IList<User> FillUsers(string[] usernames)
         {
             var users = new List<User>();

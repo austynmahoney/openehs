@@ -13,9 +13,19 @@ namespace OpenEhs.Web.Models
     /// </summary>
     public class UserViewModel
     {
+        /// <summary>
+        /// Paged list of users that allows you to view users in a paged list in a grid
+        /// </summary>
         public PagedList<User> Users { get; set; }
+
+        /// <summary>
+        /// Currently selected role
+        /// </summary>
         public Role SelectedRole { get; set; }
 
+        /// <summary>
+        /// Select list of all roles
+        /// </summary>
         public SelectList Roles
         {
             get
@@ -28,6 +38,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Search string that is what we're searching users on
+        /// </summary>
         public string SearchTerm { get; set; }
 
         public UserViewModel(PagedList<User> users)

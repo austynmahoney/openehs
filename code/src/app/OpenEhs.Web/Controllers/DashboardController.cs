@@ -16,14 +16,19 @@ namespace OpenEhs.Web.Controllers
     {
         private IPatientRepository _patientRepository;
 
+        /// <summary>
+        /// Default constructor that initializes the patient repository
+        /// </summary>
         public DashboardController()
         {
             _patientRepository = new PatientRepository();
         }
 
-        //
-        // GET: /Dashboard/
-
+        /// <summary>
+        /// Get the index, main page, for the dashboard
+        /// /Dashboard/
+        /// </summary>
+        /// <returns>the main page view</returns>
         public ActionResult Index()
         {
             var viewModel = new DashboardViewModel();

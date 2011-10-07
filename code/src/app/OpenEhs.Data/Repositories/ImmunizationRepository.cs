@@ -20,6 +20,9 @@ namespace OpenEhs.Data
     /// </summary>
     public class ImmunizationRepository : IImmunizationRepository 
     {
+        /// <summary>
+        /// the current session from the unit of work
+        /// </summary>
         private ISession Session 
         {
             get 
@@ -28,11 +31,20 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Get a Immunization with a given id.
+        /// </summary>
+        /// <param name="id">The Id of the Immunization to be retrieved.</param>
+        /// <returns></returns>
         public Immunization Get(int id) 
         {
             return Session.Get<Immunization>(id);
         }
 
+        /// <summary>
+        /// Gets all the Immunizations in the Repository.
+        /// </summary>
+        /// <returns>An IList containing all Immunizations in the Repository.</returns>
         public IList<Immunization> GetAll() 
         {
             ICriteria criteria = Session.CreateCriteria<Immunization>();
@@ -44,11 +56,19 @@ namespace OpenEhs.Data
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Adds a Immunization to the Repository.
+        /// </summary>
+        /// <param name="entity">The Immunization to add to the Repository.</param>
         public void Add(Immunization entity) 
         {
             Session.Save(entity);
         }
 
+        /// <summary>
+        /// Removes a Immunization from the Repository.
+        /// </summary>
+        /// <param name="entity">The Immunization to remove from the Repository.</param>
         public void Remove(Immunization entity) 
         {
             Session.Delete(entity);

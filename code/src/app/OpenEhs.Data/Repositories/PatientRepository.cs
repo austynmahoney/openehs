@@ -20,6 +20,9 @@ namespace OpenEhs.Data
     /// </summary>
     public class PatientRepository : IPatientRepository
     {
+        /// <summary>
+        /// the current session from the unit of work
+        /// </summary>
         private ISession Session
         {
             get
@@ -28,6 +31,11 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Get an Patient with a given id.
+        /// </summary>
+        /// <param name="id">The Id of the Patient to be retrieved.</param>
+        /// <returns></returns>
         public Patient Get(int id)
         {
             return Session.Get<Patient>(id);
@@ -38,16 +46,28 @@ namespace OpenEhs.Data
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Adds an Patient to the Repository.
+        /// </summary>
+        /// <param name="entity">The Patient to add to the Repository.</param>
         public void Add(Patient entity)
         {
             Session.Save(entity);
         }
 
+        /// <summary>
+        /// Removes a Patient from the Repository.
+        /// </summary>
+        /// <param name="entity">The Patient to remove from the Repository.</param>
         public void Remove(Patient entity)
         {
             Session.Delete(entity);
         }
 
+        /// <summary>
+        /// Gets all the Patients in the Repository.
+        /// </summary>
+        /// <returns>An IList containing all Patients in the Repository.</returns>
         public IList<Patient> GetAll()
         {
             ICriteria criteria = Session.CreateCriteria<Patient>();
@@ -55,6 +75,10 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Gets the top 25 Patients from the repository--ordered by the latest ids
+        /// </summary>
+        /// <returns>An IList containing the top 25 Patients from the Repository.</returns>
         public IList<Patient> GetTop25()
         {
             ICriteria criteria = Session.CreateCriteria<Patient>();
@@ -64,6 +88,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given phone number
+        /// </summary>
+        /// <param name="phoneNumber">The phone number of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByPhoneNumber(string phoneNumber)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Like("PhoneNumber", phoneNumber, MatchMode.Anywhere));
@@ -72,6 +101,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given first name
+        /// </summary>
+        /// <param name="firstName">The first name of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByFirstName(string firstName)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Like("FirstName", firstName, MatchMode.Anywhere));
@@ -80,6 +114,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given middle Name
+        /// </summary>
+        /// <param name="middleName">The middle Name of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByMiddleName(string middleName)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Like("MiddleName", middleName, MatchMode.Anywhere));
@@ -88,6 +127,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given last Name
+        /// </summary>
+        /// <param name="lastName">The last Name of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByLastName(string lastName)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Like("LastName",lastName, MatchMode.Anywhere));
@@ -95,6 +139,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given date Of Birth
+        /// </summary>
+        /// <param name="dateOfBirth">The date Of Birth of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByDateOfBirth(DateTime dateOfBirth)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Eq("DateOfBirth", dateOfBirth));
@@ -104,6 +153,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given date Of Birth
+        /// </summary>
+        /// <param name="dateOfBirth">The date Of Birth of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByDateOfBirthPiece(string dateOfBirth)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>();
@@ -123,6 +177,11 @@ namespace OpenEhs.Data
             return patients;
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given old physical record
+        /// </summary>
+        /// <param name="number">The old physical record of the Patient to be retrieved</param>
+        /// <returns></returns>
         public IList<Patient> FindByOldPhysicalRecord(string number)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Like("OldPhysicalRecordNumber", number, MatchMode.Anywhere));
@@ -130,6 +189,10 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Get a list of patients that have the given old physical record
+        /// </summary>
+        /// <param name="number">The old physical record of the Patient to be retrieved</param>
         public IList<Patient> FindByOldPhysicalRecordPiece(string number)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>();
@@ -147,6 +210,11 @@ namespace OpenEhs.Data
             return patients;
         }
 
+        /// <summary>
+        /// Find patient by id
+        /// </summary>
+        /// <param name="number">id of the patient to find</param>
+        /// <returns></returns>
         public IList<Patient> FindByPatientId(int number)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>().Add(Restrictions.Eq("Id", number));
@@ -154,6 +222,11 @@ namespace OpenEhs.Data
             return criteria.List<Patient>();
         }
 
+        /// <summary>
+        /// Find patient by id
+        /// </summary>
+        /// <param name="number">id of the patient to find</param>
+        /// <returns></returns>
         public IList<Patient> FindByPatientIdPiece(string number)
         {
             ICriteria criteria = Session.CreateCriteria<Patient>();
@@ -170,6 +243,11 @@ namespace OpenEhs.Data
             return patients;
         }
 
+        /// <summary>
+        /// Find patient by location
+        /// </summary>
+        /// <param name="location">location of the patient to find</param>
+        /// <returns></returns>
         public IList<Patient> FindByLocation(Location location)
         {
             var patientCriteria = Session.CreateCriteria<Patient>()
