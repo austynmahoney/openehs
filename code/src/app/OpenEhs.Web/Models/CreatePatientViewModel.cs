@@ -243,6 +243,9 @@ namespace OpenEhs.Web.Models
         [Display(Name = "Country")]
         public Country EcCountry { get; set; }
 
+        /// <summary>
+        /// Constructor that initializes the view model with default values
+        /// </summary>
         public CreatePatientViewModel()
         {
             //DateOfBirth = DateTime.Now;

@@ -40,6 +40,11 @@ namespace OpenEhs.Web.Controllers
         #region ActionResults
 
         // GET: /Patient/
+
+        /// <summary>
+        /// Get the index for patient searching
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             var psvModel = new PatientSearchViewModel(new PatientRepository().GetTop25());
@@ -49,11 +54,20 @@ namespace OpenEhs.Web.Controllers
 
         #region CreatePatient
 
+        /// <summary>
+        /// Get the create new patient model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Create()
         {
             return View(new CreatePatientViewModel());
         }
 
+        /// <summary>
+        /// Confirmation that the patient was created
+        /// </summary>
+        /// <param name="id">the patient to confirm</param>
+        /// <returns></returns>
         public ActionResult Confirmation(int id)
         {
 
@@ -274,6 +288,10 @@ namespace OpenEhs.Web.Controllers
 
         #region JsonResults
 
+        /// <summary>
+        /// Edit patient from form
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         [ValidateInput(false)]
         public JsonResult EditPatient()
@@ -335,6 +353,10 @@ namespace OpenEhs.Web.Controllers
 
         #region FeedChart
 
+        /// <summary>
+        /// Add new feed to the feed chart
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddFeed()
         {
             try
@@ -408,6 +430,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Add intake to feed chart
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddIntake()
         {
             try
@@ -460,6 +486,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Add output to the feed chart
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddOutput()
         {
             try
@@ -528,6 +558,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Allergy
 
+        /// <summary>
+        /// Create new allergy
+        /// </summary>
+        /// <returns></returns>
         public JsonResult CreateNewAllergy()
         {
             try
@@ -559,6 +593,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Add allergy to the current patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddAllergyToPatient()
         {
             try
@@ -598,6 +636,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Remove allergy from patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult RemoveAllergy()
         {
             try
@@ -640,6 +682,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Vitals
 
+        /// <summary>
+        /// Add vitals to patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddVital()
         {
             try
@@ -713,6 +759,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Checkin/Checkout
 
+        /// <summary>
+        /// Check in a patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddCheckIn()
         {
             try
@@ -764,6 +814,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Check out a patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult CheckOut()
         {
             try
@@ -803,6 +857,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets the current check in for the patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult GetCurrentCheckin()
         {
             try
@@ -850,6 +908,10 @@ namespace OpenEhs.Web.Controllers
 
         #region PastMedicalHistory
 
+        /// <summary>
+        /// Search patient visits between a time range to get history 
+        /// </summary>
+        /// <returns></returns>
         public JsonResult SearchVisit()
         {
             int patientID = int.Parse(Request.Form["patientID"]);
@@ -881,6 +943,10 @@ namespace OpenEhs.Web.Controllers
             return jsonResult;
         }
 
+        /// <summary>
+        /// Get list of visits with each visits details
+        /// </summary>
+        /// <returns></returns>
         public JsonResult SearchVisitList()
         {
             try
@@ -1032,6 +1098,11 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Get the surgury staff for a certain surgery
+        /// </summary>
+        /// <param name="surgery">sugery to get the staff for</param>
+        /// <returns></returns>
         private IList<object> GetStaff(Surgery surgery)
         {
             IList<object> result = new List<object>();
@@ -1052,6 +1123,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Surgery
 
+        /// <summary>
+        /// Add new surgery to open check in
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         [ValidateInput(false)]
         public JsonResult AddSurgery()
@@ -1197,6 +1272,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Medication
 
+        /// <summary>
+        /// Create new medication
+        /// </summary>
+        /// <returns></returns>
         public JsonResult CreateNewMedication()
         {
             try
@@ -1230,6 +1309,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Add medication to patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddMedicationToPatient()
         {
             try
@@ -1369,6 +1452,11 @@ namespace OpenEhs.Web.Controllers
         #endregion
 
         #region Diagnosis
+
+        /// <summary>
+        /// Add note to diagnosis
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         [ValidateInput(false)]
         public JsonResult AddNote()
@@ -1434,6 +1522,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Get the detail for a certain template
+        /// </summary>
+        /// <returns></returns>
         public JsonResult TemplateDetail()
         {
             try
@@ -1459,6 +1551,11 @@ namespace OpenEhs.Web.Controllers
 
         #region PatientSearch
 
+        /// <summary>
+        /// Get suggestions for patient search autocomplete
+        /// </summary>
+        /// <param name="term">search term</param>
+        /// <returns></returns>
         public JsonResult AutoCompleteSuggestions(string term)
         {
             List<string> suggestions = new List<string>();
@@ -1558,6 +1655,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Immunization
 
+        /// <summary>
+        /// Add new immunization to patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddImmunizationToPatient()
         {
             try
@@ -1600,6 +1701,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Add new immunization
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddNewImmunization()
         {
             try
@@ -1633,6 +1738,10 @@ namespace OpenEhs.Web.Controllers
 
         #region Chronic Diseases
 
+        /// <summary>
+        /// Add new disease
+        /// </summary>
+        /// <returns></returns>
         public JsonResult CreateNewDisease()
         {
             try
@@ -1662,6 +1771,10 @@ namespace OpenEhs.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Add a disease to a patient
+        /// </summary>
+        /// <returns></returns>
         public JsonResult AddDiseaseToPatient()
         {
             try

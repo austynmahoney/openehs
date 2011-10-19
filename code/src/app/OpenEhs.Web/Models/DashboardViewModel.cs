@@ -28,7 +28,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
-
+        /// <summary>
+        /// Get first open checkin found
+        /// </summary>
         public PatientCheckIn GetOpenCheckin
         {
             get
@@ -48,6 +50,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all locations
+        /// </summary>
         public IList<Location> GetLocations
         {
             get
@@ -57,6 +62,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all patients in ward 1
+        /// </summary>
         public IList<Patient> PatientsInMyWard
         {
             get 

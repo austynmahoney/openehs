@@ -32,6 +32,9 @@ namespace OpenEhs.Web.Models
             _templateRepository = new TemplateRepository();
         }
 
+        /// <summary>
+        /// Get all products
+        /// </summary>
         public IList<Product> Products
         {
             get
@@ -40,6 +43,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active products
+        /// </summary>
         public IList<Product> ActiveProducts
         {
             get
@@ -53,6 +59,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all categories
+        /// </summary>
         public IList<Category> Categories
         {
             get
@@ -61,6 +70,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active categories
+        /// </summary>
         public IList<Category> ActiveCategories
         {
             get
@@ -73,6 +85,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all allergies
+        /// </summary>
         public IList<Allergy> Allergies
         {
             get
@@ -81,6 +96,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active allergies
+        /// </summary>
         public IList<Allergy> ActiveAllergies
         {
             get
@@ -93,6 +111,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all immunizations
+        /// </summary>
         public IList<Immunization> Immunizations
         {
             get
@@ -101,6 +122,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active immunizations
+        /// </summary>
         public IList<Immunization> ActiveImmunizations
         {
             get
@@ -113,6 +137,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all medications
+        /// </summary>
         public IList<Medication> Medications
         {
             get
@@ -121,6 +148,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active medications
+        /// </summary>
         public IList<Medication> ActiveMedications
         {
             get
@@ -133,6 +163,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all locations
+        /// </summary>
         public IList<Location> Locations
         {
             get
@@ -141,6 +174,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active locations
+        /// </summary>
         public IList<Location> ActiveLocations
         {
             get
@@ -153,6 +189,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all templates
+        /// </summary>
         public IList<Template> Templates
         {
             get
@@ -161,6 +200,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// get all active temples
+        /// </summary>
         public IList<Template> ActiveTemplates
         {
             get
@@ -173,6 +215,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all note template categories
+        /// </summary>
         public IList<NoteTemplateCategory> TemplateCategories
         {
             get
@@ -182,6 +227,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// get all active template categories
+        /// </summary>
         public IList<NoteTemplateCategory> AllTemplateCategories
         {
             get
@@ -193,6 +241,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all services
+        /// </summary>
         public IList<Service> Services
         {
             get
@@ -201,6 +252,9 @@ namespace OpenEhs.Web.Models
             }
         }
 
+        /// <summary>
+        /// Get all active services
+        /// </summary>
         public IList<Service> ActiveServices
         {
             get

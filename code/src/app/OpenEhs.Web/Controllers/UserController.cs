@@ -21,6 +21,11 @@ namespace OpenEhs.Web.Controllers
             _roleRepository = new RoleRepository();
         }
 
+        /// <summary>
+        /// Get index model for user crud
+        /// </summary>
+        /// <param name="page">page index to display</param>
+        /// <returns></returns>
         public ActionResult Index(int? page)
         {
             var pageIndex = page ?? 1;
@@ -29,11 +34,22 @@ namespace OpenEhs.Web.Controllers
             return View(new UserViewModel(users));
         }
 
+        /// <summary>
+        /// Get details model for a specific user
+        /// </summary>
+        /// <param name="id">user id to show the details for</param>
+        /// <returns></returns>
         public ActionResult Details(int id)
         {
             return View(new UserDetailsViewModel(_userRepository.Get(id)));
         }
 
+        /// <summary>
+        /// Update details for user
+        /// </summary>
+        /// <param name="id">id of user to update</param>
+        /// <param name="collection">form collection that contains the new user details</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Details(int id, FormCollection collection)
         {
@@ -56,6 +72,12 @@ namespace OpenEhs.Web.Controllers
             return RedirectToAction("Index");
         }
 
+        /// <summary>
+        /// Add role to user
+        /// </summary>
+        /// <param name="id">id of role to add to user</param>
+        /// <param name="userId">user to add the role to</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult AddRole(int id, int userId)
         {
@@ -76,6 +98,12 @@ namespace OpenEhs.Web.Controllers
             return Json(new {success = true, RoleName = roleToAdd.Name, RoleId = roleToAdd.Id});
         }
 
+        /// <summary>
+        /// Remove role from a user
+        /// </summary>
+        /// <param name="id">id of role to remove</param>
+        /// <param name="userId">user id of the user to remove the role from</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult RemoveRole(int id, int userId)
         {
@@ -89,6 +117,11 @@ namespace OpenEhs.Web.Controllers
             return Json(new {success = true});
         }
 
+        /// <summary>
+        /// Approve a user
+        /// </summary>
+        /// <param name="id">id of user to approve</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Approve(int id)
         {

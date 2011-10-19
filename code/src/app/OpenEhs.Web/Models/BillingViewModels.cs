@@ -380,6 +380,9 @@ namespace OpenEhs.Web.Models
             _invoice.Items.Remove(lineItem);
         }
 
+        /// <summary>
+        /// Used to add a service that isn't yet defined (empty)
+        /// </summary>
         public void AddEmptyService()
         {
             InvoiceItem lineItem = new InvoiceItem();
@@ -388,6 +391,9 @@ namespace OpenEhs.Web.Models
             _invoice.Items.Add(lineItem);
         }
 
+        /// <summary>
+        /// Used to add a product that isn't yet defined (empty)
+        /// </summary>
         public void AddEmptyProduct()
         {
             InvoiceItem lineItem = new InvoiceItem();
@@ -396,6 +402,9 @@ namespace OpenEhs.Web.Models
             _invoice.Items.Add(lineItem);
         }
 
+        /// <summary>
+        /// Save the current invoice with each line item and payment
+        /// </summary>
         public void Save()
         {
             var repo = new InvoiceRepository();

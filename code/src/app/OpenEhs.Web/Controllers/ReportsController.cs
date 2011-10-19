@@ -17,16 +17,29 @@ namespace OpenEhs.Web.Controllers
     {
         private string dateRegExpression = @"(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})|(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))|(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})";
         
+        /// <summary>
+        /// Gets the index for reports
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
         }
 
+        /// <summary>
+        /// returns the user report model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult UserReport()
         {
             return View(new UserReportViewModel());
         }
 
+        /// <summary>
+        /// Generate report based on form data
+        /// </summary>
+        /// <param name="collection">form data to get date param from</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult UserReport(FormCollection collection)
         {
@@ -66,11 +79,20 @@ namespace OpenEhs.Web.Controllers
                 return View(new UserReportViewModel()); //Return a blank/new report if the date is invalid.
         }
 
+        /// <summary>
+        /// Get location report model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult LocationReport()
         {
             return View(new LocationReportViewModel());
         }
 
+        /// <summary>
+        /// Generate location report based on form params
+        /// </summary>
+        /// <param name="collection">form data to generate the report with</param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult LocationReport(FormCollection collection)
         {

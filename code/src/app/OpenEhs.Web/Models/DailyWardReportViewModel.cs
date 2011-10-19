@@ -22,6 +22,9 @@ namespace OpenEhs.Web.Models
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime Date { get; set; }
 
+        /// <summary>
+        /// Get all locations
+        /// </summary>
         public IList<Location> Locations
         {
             get
