@@ -43,6 +43,10 @@ namespace OpenEhs.Web.Models
         /// </summary>
         public string SearchTerm { get; set; }
 
+        /// <summary>
+        /// Constructor that recieves a paged list of users
+        /// </summary>
+        /// <param name="users">paged list of users</param>
         public UserViewModel(PagedList<User> users)
         {
             Users = users;

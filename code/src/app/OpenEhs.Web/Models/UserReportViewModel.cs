@@ -21,6 +21,9 @@ namespace OpenEhs.Web.Models
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime SelectedDate { get; set; }
 
+        /// <summary>
+        /// Data to filter report upon
+        /// </summary>
         public DataView Data { get; set; }
 
         /// <summary>

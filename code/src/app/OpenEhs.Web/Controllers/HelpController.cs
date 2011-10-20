@@ -28,11 +28,19 @@ namespace OpenEhs.Web.Controllers {
             return View();
         }
 
+        /// <summary>
+        /// Show the patient search help model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult PatientSearch()
         {
             return View();
         }
 
+        /// <summary>
+        /// Show the patient creation help model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult PatientCreation() {
             return View();
         }
@@ -46,7 +54,10 @@ namespace OpenEhs.Web.Controllers {
             return View();
         }
 
-
+        /// <summary>
+        /// Show the billing search help model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult BillingSearch() {
             return View();
         }
@@ -61,11 +72,19 @@ namespace OpenEhs.Web.Controllers {
             return View();
         }
 
+        /// <summary>
+        /// Show the printer setup help model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult PrinterSetup()
         {
             return View();
         }
 
+        /// <summary>
+        /// Show the print existing patient barcode help model
+        /// </summary>
+        /// <returns></returns>
         public ActionResult PrintExistingPatientBarcode()
         {
             return View();
