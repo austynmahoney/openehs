@@ -24,7 +24,7 @@ namespace OpenEhs.Domain
         public virtual int Id { get; private set; }
 
         /// <summary>
-        /// Total amount owed for the current Invoice
+        /// Total amount owed for the current Invoice by adding up all the invoice items in this invoice
         /// </summary>
         public virtual decimal Total
         {

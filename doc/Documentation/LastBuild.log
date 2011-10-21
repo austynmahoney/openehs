@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.3.0" projectFile="C:\Development\OpenEHS\doc\OpenEHSDocumentation.shfbproj" started="10/19/2011 10:57:11 PM">
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.3.0" projectFile="C:\Development\OpenEHS\doc\OpenEHSDocumentation.shfbproj" started="10/20/2011 9:39:40 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -89,11 +89,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.6552
+    Last step completed in 00:00:00.4524
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0624
+    Last step completed in 00:00:00.0468
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -106,11 +106,11 @@ Generating reflection information...
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:13.0728
+    Last step completed in 00:00:08.0808
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0936
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
@@ -125,19 +125,19 @@ Transforming reflection output...
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\Ryan\AppData\Local\Temp\tmp5B21.tmp
+  reflection.org -&gt; C:\Users\Ryan\AppData\Local\Temp\tmp916A.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\Ryan\AppData\Local\Temp\tmp5B21.tmp -&gt; reflection.xml
+  C:\Users\Ryan\AppData\Local\Temp\tmp916A.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:07.0824
+    Last step completed in 00:00:06.0372
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.3276
+    Last step completed in 00:00:00.3120
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -248,7 +248,7 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Whidbey\presentation.css
-    Last step completed in 00:00:02.0748
+    Last step completed in 00:00:02.1684
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -257,7 +257,7 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -267,17 +267,17 @@ Generating intermediate table of contents file...
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.2948
+    Last step completed in 00:00:01.1232
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2652
+    Last step completed in 00:00:00.2340
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Development\OpenEHS\doc\Documentation\Working\sandcastle.config
-    Last step completed in 00:00:00.4836
+    Last step completed in 00:00:00.4992
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -1282,7 +1282,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Development\OpenEHS\doc\Documentation\Working\OpenEhs.Infrastructure.Logging.XML&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Development\OpenEHS\doc\Documentation\Working\OpenEhs.Infrastructure.Security.XML&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Development\OpenEHS\doc\Documentation\Working\OpenEhs.Web.XML&#39;.
-  Info: CopyFromIndexComponent: Indexed 146116 elements in 132 files.
+  Info: CopyFromIndexComponent: Indexed 146144 elements in 132 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -1417,7 +1417,6 @@ Building reference help topics...
   Info: BuildAssembler: Building topic T:OpenEhs.Data.GenericTransaction
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Data.GenericTransaction
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Data.GenericTransaction.#ctor
-  Info: ShowMissingComponent: Auto-documenting dispose method M:OpenEhs.Data.GenericTransaction.Dispose
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Data.GenericTransaction
   Info: BuildAssembler: Building topic M:OpenEhs.Data.GenericTransaction.#ctor(NHibernate.ITransaction)
   Info: ShowMissingComponent: Auto-documenting constructor M:OpenEhs.Data.GenericTransaction.#ctor(NHibernate.ITransaction)
@@ -1427,11 +1426,8 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ITransaction&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ITransaction&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Data.GenericTransaction.Commit
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.GenericTransaction.Commit
   Info: BuildAssembler: Building topic M:OpenEhs.Data.GenericTransaction.Dispose
-  Info: ShowMissingComponent: Auto-documenting dispose method M:OpenEhs.Data.GenericTransaction.Dispose
   Info: BuildAssembler: Building topic M:OpenEhs.Data.GenericTransaction.Rollback
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.GenericTransaction.Rollback
   Info: BuildAssembler: Building topic T:OpenEhs.Data.IAddressRepository
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Data.IAddressRepository
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Data.IAddressRepository
@@ -2083,15 +2079,12 @@ Building reference help topics...
   Info: BuildAssembler: Building topic Properties.T:OpenEhs.Data.UnitOfWork
   Info: BuildAssembler: Building topic Fields.T:OpenEhs.Data.UnitOfWork
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWork.Configuration
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWork.Configuration
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWork.Current
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWork.Current
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWork.CurrentSession
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWork.CurrentSession
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
@@ -2100,38 +2093,30 @@ Building reference help topics...
   Info: BuildAssembler: Building topic F:OpenEhs.Data.UnitOfWork.CurrentUnitOfWorkKey
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:OpenEhs.Data.UnitOfWork.CurrentUnitOfWorkKey
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWork.DisposeUnitOfWork(OpenEhs.Data.IUnitOfWorkImplementor)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWork.DisposeUnitOfWork(OpenEhs.Data.IUnitOfWorkImplementor)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;unitOfWork&quot;/&gt; documentation for M:OpenEhs.Data.UnitOfWork.DisposeUnitOfWork(OpenEhs.Data.IUnitOfWorkImplementor)
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWork.IsStarted
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWork.IsStarted
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWork.Start
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWork.Start
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Data.UnitOfWork.Start
   Info: BuildAssembler: Building topic T:OpenEhs.Data.UnitOfWorkFactory
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Data.UnitOfWorkFactory
   Info: BuildAssembler: Building topic Methods.T:OpenEhs.Data.UnitOfWorkFactory
   Info: BuildAssembler: Building topic Properties.T:OpenEhs.Data.UnitOfWorkFactory
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWorkFactory.Configuration
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWorkFactory.Configuration
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.Cfg.Configuration&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkFactory.Create
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkFactory.Create
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Data.UnitOfWorkFactory.Create
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWorkFactory.CurrentSession
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWorkFactory.CurrentSession
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkFactory.DisposeUnitOfWork(OpenEhs.Data.IUnitOfWorkImplementor)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkFactory.DisposeUnitOfWork(OpenEhs.Data.IUnitOfWorkImplementor)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;adapter&quot;/&gt; documentation for M:OpenEhs.Data.UnitOfWorkFactory.DisposeUnitOfWork(OpenEhs.Data.IUnitOfWorkImplementor)
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWorkFactory.SessionFactory
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWorkFactory.SessionFactory
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISessionFactory&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISessionFactory&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISessionFactory&#39;.
@@ -2153,33 +2138,23 @@ Building reference help topics...
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction(System.Data.IsolationLevel)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction(System.Data.IsolationLevel)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction(System.Data.IsolationLevel)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;isolationLevel&quot;/&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.BeginTransaction(System.Data.IsolationLevel)
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.Dispose
   Info: ShowMissingComponent: Auto-documenting dispose method M:OpenEhs.Data.UnitOfWorkImplementor.Dispose
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWorkImplementor.Factory
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWorkImplementor.Factory
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.Flush
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.Flush
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.IncrementUsages
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.IncrementUsages
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWorkImplementor.IsInActiveTransaction
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWorkImplementor.IsInActiveTransaction
   Info: BuildAssembler: Building topic P:OpenEhs.Data.UnitOfWorkImplementor.Session
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:OpenEhs.Data.UnitOfWorkImplementor.Session
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:NHibernate.ISession&#39;.
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.TransactionalFlush
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.TransactionalFlush
   Info: BuildAssembler: Building topic M:OpenEhs.Data.UnitOfWorkImplementor.TransactionalFlush(System.Data.IsolationLevel)
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.TransactionalFlush(System.Data.IsolationLevel)
-  Warn: ShowMissingComponent: Missing &lt;param name=&quot;isolationLevel&quot;/&gt; documentation for M:OpenEhs.Data.UnitOfWorkImplementor.TransactionalFlush(System.Data.IsolationLevel)
   Info: BuildAssembler: Building topic T:OpenEhs.Data.UserRepository
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:OpenEhs.Data.UserRepository
   Info: BuildAssembler: Building topic AllMembers.T:OpenEhs.Data.UserRepository
@@ -12422,7 +12397,7 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:OpenEhs.Web.Models.ValidatePasswordLengthAttribute.IsValid(System.Object)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;value&quot;/&gt; documentation for M:OpenEhs.Web.Models.ValidatePasswordLengthAttribute.IsValid(System.Object)
   Info: Processed 1742 topics
-    Last step completed in 00:03:58.5778
+    Last step completed in 00:03:41.4886
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -12434,7 +12409,7 @@ Clearing any prior web output
     Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\icons&#39; as it contains read-only or hidden folders/files
     Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\scripts&#39; as it contains read-only or hidden folders/files
     Did not delete folder &#39;C:\Development\OpenEHS\doc\Documentation\styles&#39; as it contains read-only or hidden folders/files
-    Last step completed in 00:00:00.1092
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -12450,7 +12425,7 @@ Processed 1742 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Development\OpenEHS\doc\Documentation\Working\WebKI.xml
 Saving website table of contents to C:\Development\OpenEHS\doc\Documentation\Working\WebTOC.xml
-    Last step completed in 00:00:04.7736
+    Last step completed in 00:00:04.7892
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -12459,7 +12434,7 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:09.6408
+    Last step completed in 00:00:09.5784
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -14341,15 +14316,15 @@ C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\scripts\script_m
 C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Development\OpenEHS\doc\Documentation\scripts\SplitScreen.js
 C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\styles\Presentation.css
 C:\Development\OpenEHS\doc\Documentation\Working\Output\Website\styles\Whidbey\presentation.css -&gt; C:\Development\OpenEHS\doc\Documentation\styles\Whidbey\presentation.css
-    Last step completed in 00:00:36.3959
+    Last step completed in 00:00:34.7317
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.5928
+    Last step completed in 00:00:00.6396
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 10/19/2011 11:02 PM.  Total time: 00:05:17.8426
+Build completed successfully at 10/20/2011 09:44 PM.  Total time: 00:04:52.2095
 
 </buildStep>
 </shfbBuild>

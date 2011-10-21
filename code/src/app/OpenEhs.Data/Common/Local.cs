@@ -19,6 +19,9 @@ namespace OpenEhs.Data
             private static Hashtable _localData;
             private static readonly object LocalDataHashtableKey = new object();
 
+            /// <summary>
+            /// Get the local hashtable that is used to store local data
+            /// </summary>
             private static Hashtable LocalHashtable
             {
                 get 
@@ -48,16 +51,25 @@ namespace OpenEhs.Data
                 set { LocalHashtable[key] = value; }
             }
 
+            /// <summary>
+            /// Get the count from the local hashtable
+            /// </summary>
             public int Count
             {
                 get { return LocalHashtable.Count; }
             }
 
+            /// <summary>
+            /// Clear the local hashtable
+            /// </summary>
             public void Clear()
             {
                 LocalHashtable.Clear();
             }
 
+            /// <summary>
+            /// Check whether the application is running in the web
+            /// </summary>
             public static bool RunningInWeb
             {
                 get { return HttpContext.Current != null; }

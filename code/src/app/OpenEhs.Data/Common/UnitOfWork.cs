@@ -21,17 +21,26 @@ namespace OpenEhs.Data
         private static readonly IUnitOfWorkFactory _unitOfWorkFactory = new UnitOfWorkFactory();
         public const string CurrentUnitOfWorkKey = "CurrentUnitOfWork.Key";
 
+        /// <summary>
+        /// Get the unit of work factory configuration
+        /// </summary>
         public static Configuration Configuration
         {
             get { return _unitOfWorkFactory.Configuration; }
         }
 
+        /// <summary>
+        /// Get or set the current unit of work from local data based on key
+        /// </summary>
         private static IUnitOfWork CurrentUnitOfWork
         {
             get { return Local.Data[CurrentUnitOfWorkKey] as IUnitOfWork; }
             set { Local.Data[CurrentUnitOfWorkKey] = value; }
         }
 
+        /// <summary>
+        /// Get the current unit of work
+        /// </summary>
         public static IUnitOfWork Current
         {
             get
@@ -47,17 +56,27 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Check if the current unit of work
+        /// </summary>
         public static bool IsStarted
         {
             get { return CurrentUnitOfWork != null; }
         }
 
+        /// <summary>
+        /// Get or set the current session in the unit of work factory
+        /// </summary>
         public static ISession CurrentSession
         {
             get { return _unitOfWorkFactory.CurrentSession; }
             internal set { _unitOfWorkFactory.CurrentSession = value; }
         }
 
+        /// <summary>
+        /// Start the current unit of work by initializing a new unit of work from the unit of work factory
+        /// </summary>
+        /// <returns></returns>
         public static IUnitOfWork Start()
         {
             if (CurrentUnitOfWork != null)
@@ -71,6 +90,10 @@ namespace OpenEhs.Data
             return unitOfWork;
         }
 
+        /// <summary>
+        /// Dispose of the current unit of work
+        /// </summary>
+        /// <param name="unitOfWork"></param>
         public static void DisposeUnitOfWork(IUnitOfWorkImplementor unitOfWork)
         {
             CurrentUnitOfWork = null;

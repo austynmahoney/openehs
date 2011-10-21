@@ -33,6 +33,9 @@ namespace OpenEhs.Data
 
         #region Properties
 
+        /// <summary>
+        /// Configure the unit of work factory from hibernate configuation xml
+        /// </summary>
         public Configuration Configuration
         {
             get
@@ -58,6 +61,9 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Get or set the current session
+        /// </summary>
         public ISession CurrentSession
         {
             get
@@ -73,6 +79,9 @@ namespace OpenEhs.Data
             }
         }
 
+        /// <summary>
+        /// Get the session factory, or build a new one if there isn't one currently
+        /// </summary>
         public ISessionFactory SessionFactory
         {
             get
@@ -97,6 +106,10 @@ namespace OpenEhs.Data
 
         #region Methods
 
+        /// <summary>
+        /// Create a unit of work.  This will create a session and return a unit of work.
+        /// </summary>
+        /// <returns></returns>
         public IUnitOfWork Create()
         {
             ISession session = CreateSession();
@@ -106,11 +119,19 @@ namespace OpenEhs.Data
             return new UnitOfWorkImplementor(this, session);
         }
 
+        /// <summary>
+        /// Open a new session from the session factory
+        /// </summary>
+        /// <returns></returns>
         private ISession CreateSession()
         {
             return SessionFactory.OpenSession();
         }
 
+        /// <summary>
+        /// Dispose the current session and the unit of work
+        /// </summary>
+        /// <param name="adapter"></param>
         public void DisposeUnitOfWork(IUnitOfWorkImplementor adapter)
         {
             CurrentSession = null;
